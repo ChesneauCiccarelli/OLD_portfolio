@@ -6,13 +6,15 @@ export default {
       RouterLink, RouterView
     },
   mounted() {
-    const cursorz = document.getElementById("cursorz");
-    const moveCursor = event => {
-      const cursorWidth = cursorz.offsetWidth / 2;
-      cursorz.style.left = event.pageX - cursorWidth + "px";
-      cursorz.style.top = event.pageY - cursorWidth + "px";
-    };
-    document.addEventListener("mousemove", moveCursor);
+      //Cursor
+      const cursorz = document.getElementById("cursorz");
+      const moveCursor = event => {
+        const cursorWidth = cursorz.offsetWidth / 2;
+        cursorz.style.left = event.pageX - cursorWidth + "px";
+        cursorz.style.top = event.pageY - cursorWidth + "px";
+      };
+      document.addEventListener("mousemove", moveCursor);
+      
       //Header et Menu
       const hamburger = document.querySelector('.header .header_container .header_nav .header_nav-hamburger');
       const mobile_menu = document.querySelector('.header .header_container .header_nav ul');
@@ -123,12 +125,15 @@ export default {
     width: 3.5rem;
     height: 3.5rem;
     will-change: transform;
-    background: #f1f1f1;
+    background: var(--light);
     position: absolute;
     mix-blend-mode: difference;
     border-radius: 50%;
 
     animation: grow-shrink ease-in-out 4s infinite alternate;
+  }
+  img:hover ~ #cursorz{
+    transform: scale(3.0);
   }
   @keyframes grow-shrink {
     0% {
