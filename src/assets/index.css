@@ -1,9 +1,9 @@
-/*Tailwind*/
+/* ===== Tailwind ===== */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*Variables*/
+/* ===== Variables ===== */
 :root {
   /*Typography*/
   --btn: 'JetBrains Mono', monospace;
@@ -31,10 +31,9 @@
   --dark: #1b1c1e;
   --light: #F5F5F5;
   --accent: #E71D36;
-
 }
 
-/*Base CSS*/
+/* ===== Base CSS ===== */
 body {
   margin: 0;
   padding: 0;
@@ -51,11 +50,9 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
 }
-
 h1 {
   animation: glitch 1s ease-out infinite;
 }
-
 @keyframes glitch {
   0% {
     transform: translateX(0);
@@ -93,13 +90,11 @@ h2 {
   text-transform: lowercase;
   font-size: var(--l);
 }
-
 h2:hover {
-  cursor: default;
   text-transform: uppercase;
 }
 
-/*Buttons*/
+/* ===== Buttons ===== */
 /*Underline Red*/
 .underlinelink {
   text-decoration: none;
@@ -109,7 +104,6 @@ h2:hover {
   padding: 0px 2px;
   z-index: 1;
 }
-
 .underlinelink::before {
   content: '';
   background-color: var(--accent);
@@ -121,82 +115,19 @@ h2:hover {
   z-index: -1;
   transition: all .3s ease-in-out;
 }
-
 .underlinelink:hover {
   color: var(--dark);
 }
-
 h1.underlinelink {
   animation: none;
 }
-
 .underlinelink:hover::before {
   bottom: 0;
   height: 100%;
 }
 
-/*Sliced*/
-.btn_underlineGradient {
-  display: block;
-  margin: auto;
-  margin-bottom: 0;
-  text-align: left;
-  padding: 1.2rem 2.5rem;
-  color: var(--light);
-  font-family: var(--btn);
-  text-transform: uppercase;
-  font-size: var(--l);
-  letter-spacing: 0.2rem;
-  font-weight: 900;
-  position: relative;
-  transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225);
-  /* custom */
-  transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225);
-  /* custom */
-}
 
-.btn_underlineGradient .btn_underlineGradient-txt {
-  overflow: hidden;
-  transition: all 300ms cubic-bezier(1.000, -0.055, 0.025, 1.040);
-  /* custom */
-  transition-timing-function: cubic-bezier(1.000, -0.055, 0.025, 1.040);
-  /* custom */
-  transition-delay: 0.35s;
-}
-
-.btn_underlineGradient:hover .btn_underlineGradient-txt {
-  transition-delay: 0.35s;
-  color: transparent;
-  font-weight: 100;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
-}
-
-.btn_underlineGradient:hover,
-.btn_underlineGradient:focus,
-.btn_underlineGradient:active {
-  margin-left: 10px;
-  display: block;
-  margin: auto;
-}
-
-.btn_underlineGradient:after {
-  content: '';
-  height: 1px;
-  width: 14rem;
-  background: var(--accent);
-  position: absolute;
-  right: -1rem;
-  transition: all 1000ms cubic-bezier(0.890, -0.170, 0.140, 1.225);
-  /* custom */
-  transition-timing-function: cubic-bezier(0.890, -0.170, 0.140, 1.225);
-  /* custom */
-}
-
-.btn_underlineGradient:hover:after {
-  width: 90%;
-}
-
-/*Liquid*/
+/*BTN_liquid*/
 button {
   position: relative;
   display: block;
@@ -208,7 +139,6 @@ button {
   border-radius: 40px;
   margin: auto;
 }
-
 button span {
   position: relative;
   color: #fff;
@@ -218,8 +148,7 @@ button span {
   font-weight: 900;
   z-index: 1;
 }
-
-button .liquid {
+button .BTN_liquid {
   position: absolute;
   top: -80px;
   left: 0;
@@ -229,9 +158,8 @@ button .liquid {
   box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
   transition: .5s;
 }
-
-button .liquid::after,
-button .liquid::before {
+button .BTN_liquid::after,
+button .BTN_liquid::before {
   content: '';
   width: 200%;
   height: 200%;
@@ -241,26 +169,33 @@ button .liquid::before {
   transform: translate(-50%, -75%);
   background: #000;
 }
-
-button .liquid::before {
+button .BTN_liquid::before {
 
   border-radius: 45%;
   background: rgba(20, 20, 20, 1);
   animation: animate 5s linear infinite;
 }
-
-button .liquid::after {
+button .BTN_liquid::after {
 
   border-radius: 40%;
   background: rgba(20, 20, 20, .5);
   animation: animate 10s linear infinite;
 }
-
-button:hover .liquid {
+button:hover .BTN_liquid {
   top: -120px;
 }
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
 
-.twisting-btn {
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+/*Twisting*/
+.BTN_twist {
   position: relative;
   display: inline-flex;
   width: 180px;
@@ -268,19 +203,16 @@ button:hover .liquid {
   margin: 1rem 0rem 3rem 0rem;
   perspective: 1000px;
 }
-
-.twisting-btn a {
+.BTN_twist a {
   font-size: var(--m);
   letter-spacing: 1px;
   transform-style: preserve-3d;
   transform: translateZ(-25px);
   transition: transform .25s;
   font-family: 'Montserrat', sans-serif;
-
 }
-
-.twisting-btn a:before,
-.twisting-btn a:after {
+.BTN_twist a:before,
+.BTN_twist a:after {
   position: absolute;
   content: "EMAIL ME";
   font-family: var(--display);
@@ -294,24 +226,22 @@ button:hover .liquid {
   box-sizing: border-box;
   border-radius: 5px;
 }
-
-.twisting-btn a:before {
+.BTN_twist a:before {
   color: var(--ligh);
   background: var(--dark);
   transform: rotateY(0deg) translateZ(25px);
 }
-
-.twisting-btn a:after {
+.BTN_twist a:after {
   color: var(--dark);
   background-color: var(--light);
   transform: rotateX(90deg) translateZ(25px);
 }
-
-.twisting-btn a:hover {
+.BTN_twist a:hover {
   transform: translateZ(-25px) rotateX(-90deg);
 }
 
-.buttons {
+/*Download*/
+.BTN_download {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -321,8 +251,7 @@ button:hover .liquid {
   height: 100%;
   margin: 0 auto;
 }
-
-.btn {
+.BTN_download-link {
   font-family: var(--display);
   font-size: var(--m);
   cursor: pointer;
@@ -336,14 +265,11 @@ button:hover .liquid {
   border-radius: 20px;
   margin-bottom: 1rem;
 }
-
-.btn:hover {
+.BTN_download-link:hover {
   text-decoration: none;
 }
 
-
-/*btn_background*/
-.effect04 {
+.BTN_download-effect {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
   color: var(--dark);
@@ -352,36 +278,27 @@ button:hover .liquid {
   transition-duration: 0.4s;
   overflow: hidden;
 }
-
-.effect04:active {
+.BTN_download-effect:active {
   transform: translateY(6px);
 }
-
-.effect04::before,
-.effect04 span {
+.BTN_download-effect::before,
+.BTN_download-effect span {
   margin: 0 auto;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   transition-duration: 0.4s;
 }
-
-/* 文字1を上に */
-.effect04:hover {
+.BTN_download-effect:hover {
   outline: solid 2px var(--accent);
   background-color: var(--dark);
 }
-
-.effect04:hover:active {
+.BTN_download-effect:hover:active {
   outline: none;
 }
-
-/* HOVERしたら文字1を上に */
-.effect04:hover span {
+.BTN_download-effect:hover span {
   -webkit-transform: translateY(-400%) scale(-0.1, 20);
   transform: translateY(-400%) scale(-0.1, 20);
 }
-
-/*文字2*/
-.effect04::before {
+.BTN_download-effect::before {
   content: attr(data-sm-link-text);
   color: var(--light);
   position: absolute;
@@ -391,73 +308,55 @@ button:hover .liquid {
   -webkit-transform: translateY(500%) scale(-0.1, 20);
   transform: translateY(500%) scale(-0.1, 20);
 }
-
-/* HOVERしたら文字2を上に */
-.effect04:hover::before {
+.BTN_download-effect:hover::before {
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
 }
 
-
-    .glitch-btn,
-    .glitch-btn::after {
-      width: fit-content;
-      padding: 1rem;
-      display: block;
-      font-size: var(--l);
-      font-family: var(--btn);
-      text-transform: uppercase;
-      text-align: center;
-      background: var(--dark);
-      color: var(--light);
-      box-shadow: 6px 6px 0px #F5F5F5;
-      outline: transparent;
-      position: relative;
-      border: 2px solid var(--light);
-      margin: 0 8% 2rem 8%;
-    }
-  
-    .glitch-btn:hover::after {
-      animation: 1s glitch2;
-      animation-timing-function: steps(2, end);
-      background: var(--dark);
-      color: var(--dark);
-      box-shadow: 6px 6px 0px var(--accent);
-      border: 2px solid var(--dark);
-    }
-  
-    .glitch-btn:hover {
-      background: var(--dark);
-      color: var(--light);
-      box-shadow: 6px 6px 0px var(--accent);
-      border: 2px solid var(--light);
-      scale: 0.9;
-    }
-  
-    .glitch-btn:active {
-      box-shadow: none;
-      transform: translateX(6px);
-      transform: translateY(6px);
-    }
-  
-
-
-@keyframes animate {
-  0% {
-    transform: translate(-50%, -75%) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(-50%, -75%) rotate(360deg);
-  }
+/*Glitch*/
+.BTN_glitch,.BTN_glitch::after {
+  width: fit-content;
+  padding: 1rem;
+  display: block;
+  font-size: var(--l);
+  font-family: var(--btn);
+  text-transform: uppercase;
+  text-align: center;
+  background: var(--dark);
+  color: var(--light);
+  box-shadow: 6px 6px 0px #F5F5F5;
+  outline: transparent;
+  position: relative;
+  border: 2px solid var(--light);
+  margin: 0 8% 2rem 8%;
 }
+.BTN_glitch:hover::after {
+  animation: 1s glitch2;
+  animation-timing-function: steps(2, end);
+  background: var(--dark);
+  color: var(--dark);
+  box-shadow: 6px 6px 0px var(--accent);
+  border: 2px solid var(--dark);
+}
+.BTN_glitch:hover {
+  background: var(--dark);
+  color: var(--light);
+  box-shadow: 6px 6px 0px var(--accent);
+  border: 2px solid var(--light);
+  scale: 0.9;
+}  
+.BTN_glitch:active {
+  box-shadow: none;
+  transform: translateX(6px);
+  transform: translateY(6px);
+}
+  
 
 
-
-
-/* Media Query For Low Resolution Tablets, Mobiles (Landscape) */
+/* ===== Landscape ===== */
 @media only screen and (min-width: 481px) {
+  /* ===== Base CSS ===== */
   body {
     font-size: var(--s);
     font-weight: 400;
@@ -468,22 +367,29 @@ button:hover .liquid {
   }
 
   h2 {
-
     font-size: var(--xl);
   }
-            .glitch-btn,
-            .glitch-btn::after {margin: auto;}
+
+  /* ===== Bauttons ===== */
+  .BTN_glitch, .BTN_glitch::after {
+    margin: auto;
+  }
 }
 
-/* Media Query For Tablet */
+/* ===== Tablets ===== */
 @media only screen and (min-width: 768px) {
+  /* ===== Buttons ===== */
   button {
     margin: 0;
   }
 }
 
-/* Media Query For Laptops */
-@media only screen and (min-width: 1025px) {}
+/* ===== Laptops ===== */
+@media only screen and (min-width: 1025px) {
 
-/* Media Query For Desktop */
-@media only screen and (min-width: 1281px) {}
+}
+
+/* ===== Desktop ===== */
+@media only screen and (min-width: 1281px) {
+
+}

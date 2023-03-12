@@ -1,8 +1,18 @@
 <script>
   import { RouterLink, RouterView } from 'vue-router'
 
-  export default {
-    mounted() {
+export default {
+    components: {
+      RouterLink, RouterView
+    },
+  mounted() {
+    const cursorz = document.getElementById("cursorz");
+    const moveCursor = event => {
+      const cursorWidth = cursorz.offsetWidth / 2;
+      cursorz.style.left = event.pageX - cursorWidth + "px";
+      cursorz.style.top = event.pageY - cursorWidth + "px";
+    };
+    document.addEventListener("mousemove", moveCursor);
       //Header et Menu
       const hamburger = document.querySelector('.header .header_container .header_nav .header_nav-hamburger');
       const mobile_menu = document.querySelector('.header .header_container .header_nav ul');
@@ -22,87 +32,126 @@
 </script>
 
 <template>
-  <body>
-    <header id="header">
-      <section class="header">
-        <div class="header_container">
-          <RouterLink class="header_container-homelink" to="/">
-            <figure class="header_container-logo">
-              <img class="header_container-img" src="public/icons/monogram-Black.svg" alt="Monogram Lilian Chesneau">
-              <figcaption>Lilian Chesneau</figcaption>
-            </figure>
-          </RouterLink>
-          <div class="header_nav">
-            <div class="header_nav-hamburger">
-              <div class="header_nav-hamburger-bar"></div>
-            </div>
-            <nav>
-              <ul>
-                <li>
-                  <a href="/#project" data-after="Projects">Projects</a>
-                </li>
-                <li>
-                  <RouterLink to="/gallery" data-after="Gallery">Gallery</RouterLink>
-                </li>
-                <li>
-                  <RouterLink to="/about-me" data-after="About">About me</RouterLink>
-                </li>
-              </ul>
-            </nav>
+  <div id="cursorz"></div>
+
+  <header id="header">
+    <section class="header">
+      <div class="header_container">
+        <RouterLink class="header_container-homelink" to="/">
+          <figure class="header_container-logo">
+            <img class="header_container-img" src="public/icons/monogram-Black.svg" alt="Monogram Lilian Chesneau">
+            <figcaption>Lilian Chesneau</figcaption>
+          </figure>
+        </RouterLink>
+        <div class="header_nav">
+          <div class="header_nav-hamburger">
+            <div class="header_nav-hamburger-bar"></div>
           </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="/#project" data-after="Projects">Projects</a>
+              </li>
+              <li>
+                <RouterLink to="/gallery" data-after="Gallery">Gallery</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/about-me" data-after="About">About me</RouterLink>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </section>
-    </header>
-
-    <main>
-      <RouterView />
-    </main>
-
-    <div class="footersvg">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#F5F5F5" fill-opacity="1"
-          d="M0,96L60,106.7C120,117,240,139,360,165.3C480,192,600,224,720,229.3C840,235,960,213,1080,208C1200,203,1320,213,1380,218.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-        </path>
-      </svg>
-    </div>
-
-    <footer id="footer">
-      <div class="footer">
-        <div class="footer-title">
-          <img src="/public/img/Signature.png" alt="Lilian Chesneau Signature">
-        </div>
-        <nav>
-          <ul class="socials">
-            <li>
-              <a id="linkedin" href="https://www.linkedin.com/in/lilianchesneau/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a id="instagram" href="https://www.instagram.com/lilian._.ch/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a id="twitter" href="https://twitter.com/lc_lilianch" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a id="facebook" href="https://www.facebook.com/Reddy.Lc" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
       </div>
-    </footer>
-  </body>
+    </section>
+  </header>
+
+  <main>
+    <RouterView />
+  </main>
+
+  <div class="footersvg relative">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#F5F5F5" fill-opacity="1"
+        d="M0,96L60,106.7C120,117,240,139,360,165.3C480,192,600,224,720,229.3C840,235,960,213,1080,208C1200,203,1320,213,1380,218.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+
+  <footer id="footer" class="relative">
+    <div class="footer">
+      <div class="footer-title">
+        <img src="/public/img/Signature.png" alt="Lilian Chesneau Signature">
+      </div>
+      <nav class="socials_container">
+        <ul class="socials">
+          <li>
+            <a id="linkedin" href="https://www.linkedin.com/in/lilianchesneau/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a id="instagram" href="https://www.instagram.com/lilian._.ch/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a id="twitter" href="https://twitter.com/lc_lilianch" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a id="facebook" href="https://www.facebook.com/Reddy.Lc" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </template>
 
 <style>
   html {
     overflow-x: hidden;
+    cursor: none;
+  }
+
+  /* ===== Cursor ===== */
+  #cursorz {
+    z-index:1000000;
+    pointer-events: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    will-change: transform;
+    background: #f1f1f1;
+    position: absolute;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+
+    animation: grow-shrink ease-in-out 4s infinite alternate;
+  }
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1.0);
+    }
+    25% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    75% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* Not for smartphones */
+  @media (hover: none) and (pointer: coarse) {
+    #cursorz{
+      display: none;
+    }
   }
 
   /* ===== Scrollbar CSS ===== */
@@ -358,6 +407,11 @@
   .hvr-underline-reveal:active:before {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+  }
+  .socials_container{
+    background-color: var(--dark);
+    border-radius: 20px;
+    margin: 0 1rem 0 1rem;
   }
 
 

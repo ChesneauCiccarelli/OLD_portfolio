@@ -12,9 +12,9 @@ const router = createRouter({
     {path: '/gallery', name: 'Gallery', component: GalleryView },
     { path: '/womenswork', name: 'WomensWork', component: WomensworkView },
   ],
-        scrollBehavior() {
-          document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
-        }
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+  }
 })
 
 export default router

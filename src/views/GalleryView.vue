@@ -1,184 +1,219 @@
 <template>
-  <body>
-    <div class='loader one two three'>
-      <div>
-        <h1>Loading</h1>
-        <h2 class='loader-txt'>0%</h2>
-      </div>
+  <div class="loader flex items-center justify-center z-50">
+    <div>
+      <h1>Loading</h1>
+      <h2 class="loader_progress">0%</h2>
     </div>
-    <main class='wrapper'>
-      <header class='one two three test'>
-        <div>
-          <h1>Design Gallery</h1>
-          <h2>Lilian Chesneau</h2>
-        </div>
-      </header>
-      <section class='txt'>
-        <div class='anim txt-content'>
-          CREATING&nbsp;THE&nbsp;LIFE&nbsp;I&nbsp;WANT
-        </div>
-      </section>
-      <section class='gallery'>
-        <ul class='anim test'>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=98' width='1240'>
+  </div>
+  
+  <div class="gallery_wrapper mb-[10rem]">
+    <header class="flex items-center justify-center TAG_galley text-center">
+      <div>
+        <h1>Design Gallery</h1>
+        <h2>Lilian Chesneau</h2>
+      </div>
+    </header>
+
+    <section class="ANIM_galleryTXT toANIM">
+      <div class="anim_img ANIM_galleryTXT-txt">
+        CREATING&nbsp;THE&nbsp;LIFE&nbsp;I&nbsp;WANT
+      </div>
+    </section>
+    <section class="ANIM_gallery toANIM">
+      <ul class="anim_img TAG_galley">
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/Monogram.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/Exodia(RGB)-LilianChesneau.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/wildestdreams.jpg">
+        </li>
+      </ul>
+    </section>
+
+    <section class="ANIM_gallery toANIM">
+      <ul class="anim_img TAG_galley">
+          <li class="TAG_galley">
+            <img class="TAG_galley" src="../../public/img/gallery/montreal.jpg">
           </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=54' width='1240'>
+          <li class="TAG_galley">
+            <img class="TAG_galley" src="../../public/img/gallery/BeerFountain.jpg">
           </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=113' width='1240'>
+          <li class="TAG_galley">
+            <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg">
           </li>
-        </ul>
-      </section>
-      <section class='gallery'>
-        <ul class='anim test'>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=47' width='1240'>
+          <li class="TAG_galley">
+            <img class="TAG_galley" src="../../public/img/gallery/wildestdreams.jpg">
           </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=158' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=132' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=53' width='1240'>
-          </li>
-        </ul>
-      </section>
-      <section class='gallery'>
-        <ul class='anim test'>
-          <li>
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=83' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=97' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=6' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=139' width='1240'>
-          </li>
-        </ul>
-      </section>
-      <section class='gallery'>
-        <ul class='anim test'>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=42' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=89' width='1240'>
-          </li>
-          <li class="test">
-            <img class="test" height='874' src='https://source.unsplash.com/random/1240x874?sig=49' width='1240'>
-          </li>
-        </ul>
-      </section>
-      <section class='txt'>
-        <div class='anim txt-content'>
-          CREATING&nbsp;THE&nbsp;LIFE&nbsp;I&nbsp;WANT
-        </div>
-      </section>
-    </main>
-  </body>
+      </ul>
+    </section>
+
+    <section class="ANIM_gallery toANIM">
+      <ul class="anim_img TAG_galley">
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/montreal.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/Bridge.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/iwd4u.jpg">
+        </li>
+         <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/LastParty.jpg">
+        </li>
+      </ul>
+    </section>
+
+    <section class="ANIM_gallery toANIM">
+      <ul class="anim_img TAG_galley">
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/sagradafamilia.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/isole.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/lmeuep.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg">
+        </li>
+      </ul>
+    </section>
+
+    <section class="ANIM_gallery toANIM">
+      <ul class="anim_img TAG_galley">
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/sagradafamilia.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/lowup.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/park.jpg">
+        </li>
+        <li class="TAG_galley">
+          <img class="TAG_galley" src="../../public/img/gallery/redd.jpg">
+        </li>
+      </ul>
+    </section>
+
+    <section class="ANIM_gallery toANIM">
+    <ul class="anim_img TAG_galley">
+      <li class="TAG_galley">
+        <img class="TAG_galley" src="../../public/img/gallery/sami.jpg">
+      </li>
+      <li class="TAG_galley">
+        <img class="TAG_galley" src="../../public/img/gallery/Wonderland.jpg">
+      </li>
+      <li class="TAG_galley">
+        <img class="TAG_galley" src="../../public/img/gallery/redd.jpg">
+      </li>
+    </ul>
+  </section>
+
+
+    <section class="ANIM_galleryTXT toANIM">
+      <div class="anim_img ANIM_galleryTXT-txt">
+        CREATING&nbsp;THE&nbsp;LIFE&nbsp;I&nbsp;WANT
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import imagesLoaded from "imagesloaded"
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import imagesLoaded from "imagesloaded"
 
 export default {
-  mounted() {
-    gsap.registerPlugin(ScrollTrigger);
-    const images = gsap.utils.toArray('img');
-    const loader = document.querySelector('.loader--text');
-    const updateProgress = instance => loader.textContent = `${Math.round(instance.progressedCount * 100 / images.length)}%`;
-    const showDemo = () => {
-      document.body.style.overflow = 'auto';
-      document.scrollingElement.scrollTo(0, 0);
-      gsap.to(document.querySelector('.loader'), {
-        autoAlpha: 0
-      });
-      gsap.utils.toArray('section').forEach((section, index) => {
-        const w = section.querySelector('.wrapper');
-        const [x, xEnd] = index % 2 ? ['100%', (w.scrollWidth - section.offsetWidth) * -1] : [w.scrollWidth * -1, 0];
-        gsap.fromTo(w, {
-          x
-        }, {
-          x: xEnd,
-          scrollTrigger: {
-            trigger: section,
-            scrub: 0.5
-          }
+    
+    mounted() {
+      gsap.registerPlugin(ScrollTrigger);
+      const images = gsap.utils.toArray("img");
+      const loader = document.querySelector(".loader_progress");
+      const updateProgress = (instance) =>
+      (loader.textContent = `${Math.round(
+        (instance.progressedCount * 100) / images.length
+      )}%`);
+      const showDemo = () => {
+        document.body.style.overflow = "auto";
+        document.scrollingElement.scrollTo(0, 0);
+        gsap.to(document.querySelector(".loader"), {
+          autoAlpha: 0
         });
-      });
-    };
-    imagesLoaded(images).on('progress', updateProgress).on('always', showDemo);
+        gsap.utils.toArray("section.toANIM").forEach((section, index) => {
+          const w = section.querySelector(".anim_img");
+          const [x, xEnd] =
+            index % 2
+              ? ["100%", (w.scrollWidth - section.offsetWidth) * -1]
+              : [w.scrollWidth * -1, 0];
+          gsap.fromTo(
+            w,
+            {
+              x
+            },
+            {
+              x: xEnd,
+              scrollTrigger: {
+                trigger: section,
+                scrub: 0.5
+              }
+            }
+          );
+        });
+      };
+      imagesLoaded(images).on("progress", updateProgress).on("always", showDemo);
+    },
   }
-}
 </script>
 
 <style>
-img.test {
-  width: 100%;
-  height: auto;
-  background: #f0f0f0;
-}
+  img.TAG_galley {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+  ul.TAG_galley {
+    padding-left: 1rem;
+    list-style: none;
+  }
+  li.TAG_galley {
+    flex-shrink: 0;
+    width: clamp(500px, 60vw, 800px);
+    padding-right: 1rem;
+  }
+  header.TAG_galley {
+    height: 100vh;
+  }
+  .gallery_wrapper {
+    overflow-x: hidden;
+  }
+  .anim_img {
+    display: flex;
+  }
+  .ANIM_gallery:not(.last) {
+    padding-bottom: 1rem;
+  }
+  .ANIM_galleryTXT .ANIM_galleryTXT-txt {
+    font-size: clamp(8rem, 15vw, 16rem);
+    line-height: 1;
+    font-weight: 400;
+    font-family: var(--display);
+  }
 
-ul.test {
-  padding-left: 1rem;
-  list-style: none;
-}
-
-li.test {
-  flex-shrink: 0;
-  width: clamp(500px, 60vw, 800px);
-  padding-right: 1rem;
-}
-
-header.test {
-  height: 100vh;
-}
-
-.one {
-  display: flex;
-}
-
-.two {
-  align-items: center;
-}
-
-.three {
-  justify-content: center;
-}
-
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: black;
-  color: white;
-}
-
-.wrapper {
-  overflow-x: hidden;
-}
-
-.anim {
-  display: flex;
-}
-
-.gallery:not(.last) {
-  padding-bottom: 1rem;
-}
-
-.txt .txt-content {
-  font-size: clamp(8rem, 15vw, 16rem);
-  line-height: 1;
-  font-weight: 900;
-}</style>
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    color: white;
+  }
+</style>

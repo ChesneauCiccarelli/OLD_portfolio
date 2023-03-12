@@ -1,5 +1,5 @@
 <template>
-  <section class="magicContainer">
+  <section class="ANIM_magic-ANIM_magic-text--container">
     <div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#F5F5F5" fill-opacity="1"
@@ -12,9 +12,9 @@
         </path>
       </svg>
     </div>
-    <div id="container">
-      <span id="text1"></span>
-      <span id="text2"></span>
+    <div id="ANIM_magic-text--container">
+      <span id="ANIM_magictext1"></span>
+      <span id="ANIM_magictext2"></span>
       <svg id="filters">
         <defs>
           <filter id="threshold">
@@ -30,8 +30,8 @@
   export default {
     mounted() {
       const elts = {
-        text1: document.getElementById("text1"),
-        text2: document.getElementById("text2")
+        ANIM_magictext1: document.getElementById("ANIM_magictext1"),
+        ANIM_magictext2: document.getElementById("ANIM_magictext2")
       };
       const texts = [
         "Graphic Design",
@@ -40,7 +40,7 @@
         "Video / Audio Editing",
         "Webdesign",
         "Marketing",
-        "and more ..."
+        "and more"
       ];
       const morphTime = 1;
       const cooldownTime = 1;
@@ -50,8 +50,8 @@
       let morph = 0;
       let cooldown = cooldownTime;
 
-      elts.text1.textContent = texts[textIndex % texts.length];
-      elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+      elts.ANIM_magictext1.textContent = texts[textIndex % texts.length];
+      elts.ANIM_magictext2.textContent = texts[(textIndex + 1) % texts.length];
 
       function doMorph() {
         morph -= cooldown;
@@ -64,23 +64,23 @@
         setMorph(fraction);
       }
       function setMorph(fraction) {
-        elts.text2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
-        elts.text2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+        elts.ANIM_magictext2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+        elts.ANIM_magictext2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
 
         fraction = 1 - fraction;
-        elts.text1.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
-        elts.text1.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+        elts.ANIM_magictext1.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+        elts.ANIM_magictext1.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
 
-        elts.text1.textContent = texts[textIndex % texts.length];
-        elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+        elts.ANIM_magictext1.textContent = texts[textIndex % texts.length];
+        elts.ANIM_magictext2.textContent = texts[(textIndex + 1) % texts.length];
       }
 
       function doCooldown() {
         morph = 0;
-        elts.text2.style.filter = "";
-        elts.text2.style.opacity = "100%";
-        elts.text1.style.filter = "";
-        elts.text1.style.opacity = "0%";
+        elts.ANIM_magictext2.style.filter = "";
+        elts.ANIM_magictext2.style.opacity = "100%";
+        elts.ANIM_magictext1.style.filter = "";
+        elts.ANIM_magictext1.style.opacity = "0%";
       }
 
       function animate() {
@@ -109,18 +109,18 @@
 </script>
 
 <style>
-  section.magicContainer {
+  section.ANIM_magic-ANIM_magic-text--container {
     margin: 10rem 0rem;
     position: relative;
   }
-  #container {
+  #ANIM_magic-text--container {
     position: absolute;
     margin: auto;
     width: 100vw;
     top: 47%;
     bottom: 0;
   }
-  #text1, #text2 {
+  #ANIM_magictext1, #ANIM_magictext2 {
     position: absolute;
     width: 100%;
     font-family: var(--display);
@@ -136,7 +136,7 @@
 
   /* ===== Landscapes ===== */
   @media only screen and (min-width: 481px) {
-    #text1, #text2 {
+    #ANIM_magictext1, #ANIM_magictext2 {
       font-size: var(--l);
     }
   }
@@ -145,7 +145,7 @@
 
   /* ===== Tablet ===== */
   @media only screen and (min-width: 768px) {
-    #text1, #text2 {
+    #ANIM_magictext1, #ANIM_magictext2 {
       font-size: var(--xl);
     }
   }
@@ -154,8 +154,8 @@
 
   /* ===== Laptops ===== */
   @media only screen and (min-width: 1025px) {
-    #text1,
-    #text2 {
+    #ANIM_magictext1,
+    #ANIM_magictext2 {
       font-size: var(--xxl);
     }
   }
@@ -164,7 +164,7 @@
 
   /* Media Query For Desktop */
   @media only screen and (min-width: 1281px) {
-    #text1, #text2 {
+    #ANIM_magictext1, #ANIM_magictext2 {
       font-size: var(--d5);
     }
   }

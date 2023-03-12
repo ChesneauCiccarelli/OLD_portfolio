@@ -1,20 +1,16 @@
-<script>
-
-</script>
-
 <template>
-  <section class="template">
-    <article id="about">
-      <div class="about">
-        <div class="about_left">
+  <section class="aboutMini">
+    <article id="aboutMini">
+      <div class="aboutMini_container">
+        <div class="aboutMini_left">
           <figure>
             <img src="/public/img/MonogramChrome@2x.png" alt="Monogram Lilian Chesneau">
           </figure>
         </div>
-        <div class="about_right">
+        <div class="aboutMini_right-txt">
           <h1>Hello</h1>
           <h2>I'm Lilian Chesneau</h2>
-          <div class="about_right-txt">
+          <div class="aboutMini_right-txt">
             <p>I am a 21-year-old student from <a class="underlinelink" href="https://www.google.com/maps/place/10000+Troyes,+France/@48.2923894,4.041115,13z/data=!3m1!4b1!4m5!3m4!1s0x47ee9857e787b7b1:0x57dd125566e84f75!8m2!3d48.2973451!4d4.0744009" target="_blank" rel="noopener noreferrer">Troyes</a>, a charming French city located in the Aube department. Currently, I am in my second year of studies at the IUT of Belfort-Montbéliard, where I am pursuing a degree in the "Métiers du Multimédia et de l'Internet" department.</p>
             <p>During my academic journey, I had the privilege of attending a semester of class at <a class="underlinelink" href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noopener noreferrer">Vanier College</a> in Montreal, QC, where I studied in the Micropublishing and Hypermedia department. This study abroad experience allowed me to broaden my horizons, learn from different perspectives, and immerse myself in a new culture. You can learn more about it below</p>
             <p>This portfolio showcase some of my work, and I invite you to take your time to explore it in more detail. You can also click on the "Learn More" button below to contact me or find out more about me.</p>
@@ -22,7 +18,7 @@
           <RouterLink to="/about-me">
             <button class="mt-[3rem]">
               <span>Learn more</span>
-              <div class="liquid"></div>
+              <div class="BTN_liquid"></div>
             </button>
           </RouterLink>
         </div>
@@ -32,41 +28,41 @@
 </template>
 
 <style>
-  section.template {
+  section.aboutMini {
     margin-bottom: 5rem;
   }
 
   /* ===== AboutMe ===== */
-  article#about {
+  article#aboutMini {
     display: flex;
     padding-top: 10rem;
     padding-bottom: 5rem;
     width: 100%;
   }
-  #about .about {
+  #aboutMini .aboutMini_container {
     flex-direction: column-reverse;
     text-align: center;
     align-items: center;
     max-width: 1200px;
     margin: auto;
   }
-  #about .about_right h2 {
+  #aboutMini .aboutMini_right-txt h2 {
     margin-bottom: 10px;
   }
-  #about .about_right p {
+  #aboutMini .aboutMini_right-txt p {
     margin-bottom: 2rem;
   }
-  #about .about_right p.btn_underlineGradient-txt-p {
+  #aboutMini .aboutMini_right-txt p.btn_underlineGradient-txt-p {
     margin-bottom: 0px;
   }
-  #about .about_right-txt {
+  #aboutMini .aboutMini_right-txt {
     margin-left: 8%;
     margin-right: 8%;
   }
-  #about .about_right-txt p:first-child {
+  #aboutMini .aboutMini_right-txt p:first-child {
     margin-top: 5rem;
   }
-  #about .about_right {
+  #aboutMini .aboutMini_right-txt {
     margin-top: 2rem;
   }
 
@@ -74,29 +70,28 @@
 
   /* ===== Tablet ===== */
   @media only screen and (min-width: 768px) {
-    section.template {
+    section.aboutMini {
       margin-bottom: 0rem;
       padding-top: 8rem;
     }
 
     /* ===== AboutMe ===== */
-    #about .about {
+    #aboutMini .aboutMini_container {
       display: flex;
       flex-direction: row;
       padding-top: 1;
       padding-bottom: auto;
     }
-    #about .about_left {
+    #aboutMini .aboutMini_left {
       max-width: 300px;
     }
-    #about .about_right {
-      text-align: left;
-      padding: 30px;
-    }
-    #about .about_right h1 {
+    #aboutMini .aboutMini_right-txt {
       text-align: left;
     }
-    #about .about_right-txt {
+    #aboutMini .aboutMini_right-txt h1 {
+      text-align: left;
+    }
+    #aboutMini .aboutMini_right-txt {
       margin-left: 0;
       margin-right: 0;
     }
@@ -106,8 +101,12 @@
 
   /* ===== Laptops ===== */
   @media only screen and (min-width: 1025px) {
-    #about .about_left {
+    #aboutMini .aboutMini_left {
       max-width: 500px;
     }
   }
 </style>
+
+<script>
+
+</script>

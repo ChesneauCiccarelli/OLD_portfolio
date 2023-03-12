@@ -1,13 +1,10 @@
-<script>
-
-</script>
-
 <template>
-  <div class="mask"></div>
+  <div class="separator"></div>
 
-  <h1 class="shine mb-[5rem] text-center">Other stuff</h1>
+  <h1 class="text-center">Discover</h1>
+  <h1 class="ANIM_shine mb-[5rem] text-center">Other stuff</h1>
 
-  <div class="mobile-tab">
+  <div class="tab--mobile">
     <div>
       <h1>My work at Vanier College</h1>
       <p>I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>
@@ -15,7 +12,7 @@
       <a href="https://lilian39.micromediaweb.com/" target="_blank">
         <button>
           <span>See more</span>
-          <div class="liquid"></div>
+          <div class="BTN_liquid"></div>
         </button>
       </a>
     </div>
@@ -24,19 +21,19 @@
   <a class="tab_link" href="https://lilian39.micromediaweb.com/" target="_blank">
     <div class="tab">
       <ul class="tab_container">
-        <li class="member co-funder">
-          <div class="thumb"><img src="../../public/img/Vanier.png"></div>
-          <div class="description">
+        <li class="tab_content tab_after">
+          <div class="tab_img"><img src="../../public/img/Vanier.png"></div>
+          <div class="tab_description">
             <h3>My work at Vanier College</h3>
-            <p class="oui">I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>
-            <a href="">- Lets go -</a>
+            <p>I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>
+            <a href="https://lilian39.micromediaweb.com/">- Lets go -</a>
           </div>
         </li>
       </ul>
     </div>
   </a>
 
-  <div class="mask mask2"></div>
+  <div class="separator separator--down"></div>
 </template>
 
 <style>
@@ -50,13 +47,13 @@
     display: hidden;
     content-visibility: hidden;
   }
-  .mask {
+  .separator {
     overflow: hidden;
     height: 20px;
     margin-top: 25rem;
     margin-bottom: 3rem;
   }
-  .mask::after {
+  .separator::after {
     content: '';
     display: block;
     margin: -25px auto 0;
@@ -65,20 +62,20 @@
     border-radius: 125px / 12px;
     box-shadow: 0 0 8px var(--light);
   }
-  .mask2 {
+  .separator--down {
     margin-top: 3rem;
     margin-bottom: 20rem;
   }
-  .mobile-tab {
+  .tab--mobile {
     margin: 0 3rem;
   }
-  .mobile-tab p {
+  .tab--mobile p {
     margin: 3rem 0;
   }
-  .mobile-tab button {
+  .tab--mobile button {
     margin: 3rem auto;
   }
-  h1.shine {
+  h1.ANIM_shine {
     font-family: var(--display);
     text-transform: lowercase;
     letter-spacing: 4px;
@@ -86,11 +83,11 @@
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 3s linear infinite;
+    animation: ANIM_shine 3s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
-  @keyframes shine {
+  @keyframes ANIM_shine {
     0% {
       background-position: -500%;
     }
@@ -99,12 +96,14 @@
     }
   }
 
+
+  
   /* ===== Tablet ===== */
   @media only screen and (min-width: 768px) {
     div.tab {
       content-visibility: visible;
     }
-    .mobile-tab {
+    .tab--mobile {
       display: none;
     }
     .tab {
@@ -115,7 +114,7 @@
       padding: 2em 0 2em 2.5em;
       margin: 0;
     }
-    .member {
+    .tab_content {
       padding: 0.73em;
       background: linear-gradient(83deg,
           var(--light) 0 97%,
@@ -126,21 +125,21 @@
       transform: scale(0.85);
       transition: all 0.4s ease 0s;
     }
-    .member:hover h3 {
+    .tab_content:hover h3 {
       left: 250px;
     }
-    .member:hover:after {
+    .tab_content:hover:after {
       background-color: var(--accent);
       color: var(--light);
       text-transform: uppercase;
     }
-    .member:nth-of-type(even) {
+    .tab_content:nth-of-type(even) {
       text-align: right;
       background: linear-gradient(-83deg,
           var(--light) 0 97%,
           #fff0 calc(97% + 1px) 100%);
     }
-    .thumb {
+    .tab_img {
       height: 13vmin;
       float: left;
       margin-right: 1.25em;
@@ -154,14 +153,14 @@
       margin-left: -3em;
       padding: 0.5em;
     }
-    .member:nth-of-type(even) .thumb {
+    .tab_content:nth-of-type(even) .tab_img {
       --deg: 86deg;
       float: right;
       margin-left: 2em;
       margin-right: -3em;
       transform: rotate(4deg);
     }
-    .thumb img {
+    .tab_img img {
       width: 100%;
       height: 100%;
       border-radius: 0.25em;
@@ -169,29 +168,29 @@
       background: var(--dark);
       padding: 1rem;
     }
-    .member:hover {
+    .tab_content:hover {
       transform: scale(1);
       transition: all 0.4s ease 0s;
       filter: drop-shadow(0px 20px 10px #0008);
     }
-    .member:hover .thumb {
+    .tab_content:hover .tab_img {
       padding: 0.1em;
       transition: all 0.4s ease 0s;
       transform: rotate(-1deg);
     }
-    .member:hover .thumb img {
+    .tab_content:hover .tab_img img {
       filter: none;
       transition: all 0.4s ease 0s;
     }
-    .description {
+    .tab_description {
       padding-top: 1vmin;
     }
-    .description p {
+    .tab_description p {
       padding: 0 2em;
       margin-bottom: 1em;
       color: var(--dark);
     }
-    .description h3 {
+    .tab_description h3 {
       font-family: var(--title);
       text-transform: uppercase;
       background: var(--light);
@@ -207,7 +206,7 @@
       font-size: var(--m);
       transform-origin: left bottom;
     }
-    .description a {
+    .tab_description a {
       color: var(--dark);
       font-family: var(--btn);
       text-transform: uppercase;
@@ -215,22 +214,22 @@
       letter-spacing: 0.2rem;
       font-weight: 900;
     }
-    .member:nth-of-type(even) h3 {
+    .tab_content:nth-of-type(even) h3 {
       left: inherit;
       right: 9vmin;
       transform: rotate(2deg);
       transform-origin: right bottom;
       background: linear-gradient(-182deg, #fff0 60%, var(--light) 0 100%);
     }
-    .member:hover h3 {
+    .tab_content:hover h3 {
       transition: all 0.4s ease 0s;
       transform: rotate(0deg);
       background: var(--light);
     }
-    .member:hover a {
+    .tab_content:hover a {
       border-bottom: 1px solid var(--dark);
     }
-    .co-funder:after {
+    .tab_after:after {
       content: "VANIER";
       font-size: 0.75em;
       position: absolute;
@@ -246,12 +245,12 @@
       font-size: var(--m);
       font-weight: 900;
     }
-    .co-funder:nth-of-type(even):after {
+    .tab_after:nth-of-type(even):after {
       right: inherit;
       left: 4em;
       transform: rotate(-3deg);
     }
-    .description p a {
+    .tab_description p a {
       display: inline-block;
       margin: 0.5em 0 0 0;
       background: var(--light);
@@ -261,13 +260,13 @@
       text-decoration: none;
       transition: all 0.4s ease 0s;
     }
-    .description p a:hover {
+    .tab_description p a:hover {
       transition: all 0.4s ease 0s;
       color: var(--light);
       background: var(--dark);
       font-weight: bold;
     }
-    .description p a img {
+    .tab_description p a img {
       float: left;
       width: 22px;
       filter: invert(1);
@@ -278,3 +277,7 @@
     }
   }
 </style>
+
+<script>
+
+</script>
