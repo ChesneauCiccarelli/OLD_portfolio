@@ -25,43 +25,7 @@
           </RouterLink>
         </div>
 
-        <div class="project_item">
-          <div class="project_item-info">
-            <RouterLink class="header_container-homelink" to="/womenswork">
-              <h1 class="underlinelink">Women's Work, smartphone experience</h1>
-            </RouterLink>
-            <h2>The emancipation of women's work</h2>
-            <p>From the Amazons to the #Metoo movement, the faces of feminism. Within the framework of the 1st semester of the BUT MMI the students of the promotion had to carry out a site “mobile first”, around feminism and its aspects. Women's Work develops a vision of women in our society through the differentiation of work by gender. It is a discovery of the history behind the emancipation of women's work through time.</p>
-            <RouterLink class="header_container-homelink" to="/womenswork">
-              <button>
-                <span>See more</span>
-                <div class="BTN_liquid"></div>
-              </button>
-            </RouterLink>
-          </div>
-          <RouterLink class="project_img" to="/womenswork">
-            <img src="/public/img/ww.png" alt="Women's Work Mock up">
-          </RouterLink>
-        </div>
-
-        <div class="project_item">
-          <div class="project_item-info">
-            <RouterLink class="header_container-homelink" to="/womenswork">
-              <h1 class="underlinelink">Women's Work, smartphone experience</h1>
-            </RouterLink>
-            <h2>The emancipation of women's work</h2>
-            <p>From the Amazons to the #Metoo movement, the faces of feminism. Within the framework of the 1st semester of the BUT MMI the students of the promotion had to carry out a site “mobile first”, around feminism and its aspects. Women's Work develops a vision of women in our society through the differentiation of work by gender. It is a discovery of the history behind the emancipation of women's work through time.</p>
-            <RouterLink class="header_container-homelink" to="/womenswork">
-              <button>
-                <span>See more</span>
-                <div class="BTN_liquid"></div>
-              </button>
-            </RouterLink>
-          </div>
-          <RouterLink class="project_img" to="/womenswork">
-            <img src="/public/img/ww.png" alt="Women's Work Mock up">
-          </RouterLink>
-        </div>
+        <h2>More to come</h2>
         
       </div>
     </article>

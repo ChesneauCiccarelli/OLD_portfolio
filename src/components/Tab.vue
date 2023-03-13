@@ -44,8 +44,7 @@
     text-transform: initial;
   }
   div.tab {
-    display: hidden;
-    content-visibility: hidden;
+    display: none;
   }
   .separator {
     overflow: hidden;
@@ -101,7 +100,7 @@
   /* ===== Tablet ===== */
   @media only screen and (min-width: 768px) {
     div.tab {
-      content-visibility: visible;
+      display: block;
     }
     .tab--mobile {
       display: none;

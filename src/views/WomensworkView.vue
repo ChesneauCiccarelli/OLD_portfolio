@@ -586,7 +586,7 @@ export default {
     transition: transform 1s cubic-bezier(0.14, 0.15, 0.13, 0.99);
   }
   #scrolling_rainbow-content{
-    opacity: .5;
+    opacity: .8;
   }
 
   /* ===== Project ===== */
