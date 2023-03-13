@@ -60,7 +60,7 @@
             <p>Designed and developed only prioritizing the mobile user experience over the desktop experience. Simplicity and clarity, easily accessible on smaller screens. Touch screen interface to scroll around the articles and have a nice reading session.</p>
           </div>
           <div class="z-[1]]">
-            <img src="../../public/img/ww-iphoneHOME.png" alt="Pages du site Women's Work">
+            <img src="../../public/img/ww-iphoneHOME.png" alt="Women's WOrk Mock-up">
           </div>
           <div class="section_C-2 z-10">
             <h1>Bilingual</h1>

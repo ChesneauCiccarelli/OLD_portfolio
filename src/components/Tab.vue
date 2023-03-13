@@ -8,7 +8,7 @@
     <div>
       <h1>My work at Vanier College</h1>
       <p>I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>
-      <div><img src="../../public/img/Vanier.png"></div>
+      <div><img src="../../public/img/Vanier.png" alt="Logo Cegep College Vanier"></div>
       <a href="https://lilian39.micromediaweb.com/" target="_blank">
         <button>
           <span>See more</span>
@@ -22,7 +22,7 @@
     <div class="tab">
       <ul class="tab_container">
         <li class="tab_content tab_after">
-          <div class="tab_img"><img src="../../public/img/Vanier.png"></div>
+          <div class="tab_img"><img src="../../public/img/Vanier.png" alt="Logo Cegep College Vanier"></div>
           <div class="tab_description">
             <h3>My work at Vanier College</h3>
             <p>I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>

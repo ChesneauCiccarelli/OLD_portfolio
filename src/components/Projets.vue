@@ -21,7 +21,7 @@
             </RouterLink>
           </div>
           <RouterLink class="project_img" to="/womenswork">
-            <img src="/public/img/ww.png" alt="Women's Work Mock up">
+            <img src="/public/img/ww.png" alt="Women's Work Mock -p">
           </RouterLink>
         </div>
 

@@ -75,7 +75,7 @@
         <h1>Mo<span>re</span></h1>
         <div class="BTN_download">
           <div class="container">
-            <a class="BTN_download-link BTN_download-effect" data-sm-link-text="DOWNLOAD" href="../../public/files/[FR]CV-LilianChesneau.pdf" download="[FR]CV-LilianChesneau.pdf"><span>Curriculum vitæ</span></a>
+            <a class="BTN_download-link BTN_download-effect" data-sm-link-text="DOWNLOAD" href="../../public/files/[EN]Resume-LilianChesneau.pdf" download="[EN]Resume-LilianChesneau.pdf"><span>Curriculum vitæ</span></a>
           </div>
         </div>
         <div class="BTN_download">

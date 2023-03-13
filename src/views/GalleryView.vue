@@ -22,13 +22,13 @@
     <section class="ANIM_gallery toANIM">
       <ul class="anim_img TAG_galley">
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/Monogram.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/Monogram.jpg" alt="Monogram">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/Exodia(RGB)-LilianChesneau.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/Exodia(RGB)-LilianChesneau.jpg" alt="Exodia">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/wildestdreams.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/wildestdreams.jpg" alt="Wildest Dreams">
         </li>
       </ul>
     </section>
@@ -36,16 +36,16 @@
     <section class="ANIM_gallery toANIM">
       <ul class="anim_img TAG_galley">
           <li class="TAG_galley">
-            <img class="TAG_galley" src="../../public/img/gallery/montreal.jpg">
+            <img class="TAG_galley" src="../../public/img/gallery/montreal.jpg" alt="Montreal Design">
           </li>
           <li class="TAG_galley">
-            <img class="TAG_galley" src="../../public/img/gallery/BeerFountain.jpg">
+            <img class="TAG_galley" src="../../public/img/gallery/BeerFountain.jpg" alt="Fountain">
           </li>
           <li class="TAG_galley">
-            <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg">
+            <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg" alt="Last Party (Negative)">
           </li>
           <li class="TAG_galley">
-            <img class="TAG_galley" src="../../public/img/gallery/wildestdreams.jpg">
+            <img class="TAG_galley" src="../../public/img/gallery/wildestdreams.jpg" alt="Wildest dreams">
           </li>
       </ul>
     </section>
@@ -53,16 +53,16 @@
     <section class="ANIM_gallery toANIM">
       <ul class="anim_img TAG_galley">
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/montreal.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/montreal.jpg" alt="Montreal Design">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/Bridge.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/Bridge.jpg" alt="Bridge">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/iwd4u.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/iwd4u.jpg" alt="I would die for you">
         </li>
          <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/LastParty.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/LastParty.jpg" alt="Last party">
         </li>
       </ul>
     </section>
@@ -70,16 +70,16 @@
     <section class="ANIM_gallery toANIM">
       <ul class="anim_img TAG_galley">
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/sagradafamilia.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/sagradafamilia.jpg" alt="Sagrada familia">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/isole.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/isole.jpg" alt="Isole">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/lmeuep.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/lmeuep.jpg" alt="Le monde est un endroit parfait">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg" alt="Last Party (Negative)">
         </li>
       </ul>
     </section>
@@ -87,16 +87,16 @@
     <section class="ANIM_gallery toANIM">
       <ul class="anim_img TAG_galley">
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/sagradafamilia.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/sagradafamilia.jpg" alt="Sagrada Familia">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/lowup.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/lowup.jpg" alt="Low up">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/park.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/park.jpg" alt="Park">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/redd.jpg">
+          <img class="TAG_galley" src="../../public/img/gallery/redd.jpg" alt="Redd">
         </li>
       </ul>
     </section>
@@ -104,13 +104,13 @@
     <section class="ANIM_gallery toANIM">
     <ul class="anim_img TAG_galley">
       <li class="TAG_galley">
-        <img class="TAG_galley" src="../../public/img/gallery/sami.jpg">
+        <img class="TAG_galley" src="../../public/img/gallery/sami.jpg" alt="Sami">
       </li>
       <li class="TAG_galley">
-        <img class="TAG_galley" src="../../public/img/gallery/Wonderland.jpg">
+        <img class="TAG_galley" src="../../public/img/gallery/Wonderland.jpg" alt="Wonderland">
       </li>
       <li class="TAG_galley">
-        <img class="TAG_galley" src="../../public/img/gallery/redd.jpg">
+        <img class="TAG_galley" src="../../public/img/gallery/redd.jpg" alt="Redd">
       </li>
     </ul>
   </section>

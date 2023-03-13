@@ -36,7 +36,7 @@ export default {
 <template>
   <div id="cursorz"></div>
 
-  <header id="header" v-if="$route.name !== 'Page404'">
+  <header id="header" v-if="$route.name !== 'NotFound'">
     <section class="header">
       <div class="header_container">
         <RouterLink class="header_container-homelink" to="/">
@@ -71,7 +71,7 @@ export default {
     <RouterView />
   </main>
 
-  <div class="footersvg relative" v-if="$route.name !== 'Page404'">
+  <div class="footersvg relative" v-if="$route.name !== 'NotFound'">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#F5F5F5" fill-opacity="1"
         d="M0,96L60,106.7C120,117,240,139,360,165.3C480,192,600,224,720,229.3C840,235,960,213,1080,208C1200,203,1320,213,1380,218.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
@@ -79,7 +79,7 @@ export default {
     </svg>
   </div>
 
-  <footer id="footer" class="relative" v-if="$route.name !== 'Page404'">
+  <footer id="footer" class="relative" v-if="$route.name !== 'NotFound'">
     <div class="footer">
       <div class="footer-title">
         <img src="/public/img/Signature.png" alt="Lilian Chesneau Signature">
