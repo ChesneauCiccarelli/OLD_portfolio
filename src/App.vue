@@ -41,7 +41,7 @@ export default {
       <div class="header_container">
         <RouterLink class="header_container-homelink" to="/">
           <figure class="header_container-logo">
-            <img class="header_container-img" src="../public/icons/monogram-Black.svg" alt="Monogram Lilian Chesneau">
+            <img class="header_container-img" height="30px" width="35px" src="../public/icons/monogram-Black.svg" alt="Monogram Lilian Chesneau">
             <figcaption>Lilian Chesneau</figcaption>
           </figure>
         </RouterLink>

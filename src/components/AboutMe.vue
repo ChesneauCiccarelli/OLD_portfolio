@@ -10,7 +10,7 @@
         <div class="aboutMini_right-txt">
           <h1>Hello</h1>
           <h2>I'm Lilian Chesneau</h2>
-          <div class="aboutMini_right-txt">
+          <div>
             <p>I am a 21-year-old student from <a class="underlinelink" href="https://www.google.com/maps/place/10000+Troyes,+France/@48.2923894,4.041115,13z/data=!3m1!4b1!4m5!3m4!1s0x47ee9857e787b7b1:0x57dd125566e84f75!8m2!3d48.2973451!4d4.0744009" target="_blank" rel="noopener noreferrer">Troyes</a>, a charming French city located in the Aube department. Currently, I am in my second year of studies at the IUT of Belfort-Montbéliard, where I am pursuing a degree in the "Métiers du Multimédia et de l'Internet" department.</p>
             <p>During my academic journey, I had the privilege of attending a semester of class at <a class="underlinelink" href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noopener noreferrer">Vanier College</a> in Montreal, QC, where I studied in the Micropublishing and Hypermedia department. This study abroad experience allowed me to broaden my horizons, learn from different perspectives, and immerse myself in a new culture. You can learn more about it below</p>
             <p>This portfolio showcase some of my work, and I invite you to take your time to explore it in more detail. You can also click on the "Learn More" button below to contact me or find out more about me.</p>
@@ -78,12 +78,15 @@
     /* ===== AboutMe ===== */
     #aboutMini .aboutMini_container {
       display: flex;
+      gap: 2rem;
       flex-direction: row;
       padding-top: 1;
       padding-bottom: auto;
+      align-items: flex-start;
+      padding: 0 3rem 0 3rem;
     }
     #aboutMini .aboutMini_left {
-      max-width: 300px;
+      max-width: 400px;
     }
     #aboutMini .aboutMini_right-txt {
       text-align: left;
@@ -94,6 +97,8 @@
     #aboutMini .aboutMini_right-txt {
       margin-left: 0;
       margin-right: 0;
+      min-width: 50%;
+      max-width: 60%;
     }
   }
 
