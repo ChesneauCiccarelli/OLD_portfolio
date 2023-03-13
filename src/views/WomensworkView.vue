@@ -585,9 +585,6 @@ export default {
     margin: -19px auto;
     transition: transform 1s cubic-bezier(0.14, 0.15, 0.13, 0.99);
   }
-  #scrolling_rainbow-content{
-    opacity: .8;
-  }
 
   /* ===== Project ===== */
   .project{
@@ -670,11 +667,6 @@ export default {
 
   /* ===== Tablet ===== */
   @media only screen and (min-width: 768px) {
-    /* ===== Scrolling Rainbow ===== */
-    #scrolling_rainbow-content{
-      opacity: 1;
-    }
-
     /* ===== Project ===== */
     .project{
       max-width: 1300px;
