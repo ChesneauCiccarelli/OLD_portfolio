@@ -102,7 +102,7 @@
               <input type="text" id="subject" name="subject" required="">
               <label for="message">Message:</label>
               <textarea id="message" name="message" required=""></textarea>
-              <button class="BTN_form">
+              <button class="BTN_form" type="submit">
                 <div>
                   <div class="BTN_form-wrapperSVG">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

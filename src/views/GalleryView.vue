@@ -6,7 +6,7 @@
     </div>
   </div>
   
-  <div class="gallery_wrapper mb-[10rem]">
+  <div class="gallery_wrapper">
     <header class="flex items-center justify-center TAG_galley text-center">
       <div>
         <h1>Design Gallery</h1>
@@ -122,15 +122,26 @@
       </div>
     </section>
   </div>
+
+  <section class="glasmorphism_container">
+    <div class="glasmorphism_content text-[#F5F5F5]">
+      <h1>More?</h1>
+      <p>Want to see more of my design work and stay updated on my latest projects? Follow me on social media!</p>
+      <socials class="mt-[3rem]"/>
+    </div>
+  </section>
 </template>
 
 <script>
   import gsap from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
   import imagesLoaded from "imagesloaded"
+  import socials from '../components/Socials.vue'
 
 export default {
-    
+    components: {
+      socials,
+    },   
     mounted() {
       gsap.registerPlugin(ScrollTrigger);
       const images = gsap.utils.toArray("img");
@@ -185,7 +196,7 @@ export default {
   }
   li.TAG_galley {
     flex-shrink: 0;
-    width: clamp(500px, 60vw, 800px);
+    width: clamp(400px, 40vw, 600px);
     padding-right: 1rem;
   }
   header.TAG_galley {
