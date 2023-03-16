@@ -79,7 +79,7 @@
           <img class="TAG_galley" src="../../public/img/gallery/lmeuep.jpg" alt="Le monde est un endroit parfait">
         </li>
         <li class="TAG_galley">
-          <img class="TAG_galley" src="../../public/img/gallery/LastParty(Negative).jpg" alt="Last Party (Negative)">
+          <img class="TAG_galley" src="../../public/img/gallery/LastParty.jpg" alt="Last Party (Negative)">
         </li>
       </ul>
     </section>

@@ -1,7 +1,7 @@
 <template>
   <section id="project">
     <article class="project">
-      <div class="project_header">
+      <div class="project_header mt-[20rem]">
         <h1 class="project_header-title">A journey trought my work</h1>
       </div>
 
@@ -9,10 +9,10 @@
         <div class="project_item">
           <div class="project_item-info">
             <RouterLink class="header_container-homelink" to="/womenswork">
-              <h1 class="underlinelink">Women's Work, smartphone experience</h1>
+              <h1 class="underlinelink">Women's Work</h1>
             </RouterLink>
             <h2>The emancipation of women's work</h2>
-            <p>From the Amazons to the #Metoo movement, the faces of feminism. Within the framework of the 1st semester of the BUT MMI the students of the promotion had to carry out a site “mobile first”, around feminism and its aspects. Women's Work develops a vision of women in our society through the differentiation of work by gender. It is a discovery of the history behind the emancipation of women's work through time.</p>
+            <p>From the Amazons to the #Metoo movement, Women's Work develops a vision of women in our society through the differentiation of work by gender. It is a discovery of the history behind the emancipation of women's work through time.</p>
             <RouterLink class="header_container-homelink" to="/womenswork">
               <button>
                 <span>See more</span>
@@ -21,12 +21,49 @@
             </RouterLink>
           </div>
           <RouterLink class="project_img" to="/womenswork">
-            <img src="/public/img/ww.png" alt="Women's Work Mock -p">
+            <img class="rounded-[20px]" src="/public/img/ww.png" alt="Women's Work Mock">
           </RouterLink>
         </div>
 
-        <h2>More to come</h2>
-        
+        <div class="project_item">
+          <div class="project_item-info">
+            <RouterLink class="header_container-homelink" to="/deepdown">
+              <h1 class="underlinelink">Deep Down festival</h1>
+            </RouterLink>
+            <h2>Branding of a music festival</h2>
+            <p>The Deep Down festival is a memento of electronic music and its greatest aspects. The name brings together the two biggest electronic genres known to the general public which are House (or Deep House) and Chillout (also called Down Tempo). The idea is to dive into the deepest part of the musical genre by going over everything that made up its universe.</p>
+            <RouterLink class="header_container-homelink" to="/deepdown">
+              <button>
+                <span>See more</span>
+                <div class="BTN_liquid"></div>
+              </button>
+            </RouterLink>
+          </div>
+          <RouterLink class="project_img" to="/deepdown">
+            <img class="rounded-[20px]" src="/public/img/dd-homepage.png" alt="Deep Down Festival mock up">
+          </RouterLink>
+        </div>
+
+        <div class="project_item">
+          <div class="project_item-info">
+            <RouterLink class="header_container-homelink" to="/fulmine">
+              <h1 class="underlinelink">Fulmine</h1>
+            </RouterLink>
+            <h2>Designing a brand style guide</h2>
+            <p>What is a Brand ? What is Brand Identity ? What is a Brand Guidelines ? What is a logo ? Discover it with the creation of a brand new brand of electric super sports car that can revolutionise the world of motoring.</p>
+            <RouterLink class="header_container-homelink" to="/fulmine">
+              <button>
+                <span>See more</span>
+                <div class="BTN_liquid"></div>
+              </button>
+            </RouterLink>
+          </div>
+          <RouterLink class="project_img" to="/fulmine">
+            <img class="rounded-[20px]" src="/public/img/ful-logos.png" alt="Deep Down Festival mock up">
+          </RouterLink>
+        </div>
+
+        <h1 class="ANIM_shine mb-[10rem] text-center">More to come</h1>
       </div>
     </article>
   </section>
@@ -51,11 +88,11 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 15rem;
+  gap: 20rem;
 }
 #project .project_item {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   max-height: min-content;
@@ -74,8 +111,8 @@ export default {
   color: var(--black);
 }
 #project .project_item-info h1 {
-  font-size: var(--l);
-  font-family: var(--btn);
+  font-size: var(--xl);
+  font-family: var(--display);
 }
 .project_header {
   margin: 0rem 0rem 15rem 0rem;
@@ -83,8 +120,9 @@ export default {
 }
 #project .project_item-info h2 {
   font-size: var(--l);
-  font-family: var(--display);
-  text-transform: lowercase;
+  font-family: var(--btn);
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px var(--accent);
   color: var(--white);
   margin: 1rem 0px 0.5rem 0rem;
 }

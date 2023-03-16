@@ -1,8 +1,7 @@
 <template>
   <div class="separator"></div>
 
-  <h1 class="text-center">Discover</h1>
-  <h1 class="ANIM_shine mb-[5rem] text-center">Other stuff</h1>
+  <h1 class="text-center">Other stuff</h1>
 
   <div class="tab--mobile">
     <div>
