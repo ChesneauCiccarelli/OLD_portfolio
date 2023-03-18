@@ -30,62 +30,62 @@
   <section>
     <article class="about">
       <div class="about_innercontainer">
-        <h1>Lilian <span>Chesneau</span></h1>
-        <h2 class="about_subtitle-1">MMI Student</h2>
-        <p class="about_txt-2">My name is Lilian Chesneau, and I am a student of "BUT Métiers du Multimédia et de l'Internet" at the MMI department of IUT of Belfort-Montbéliard, specializing in web design and developement.</p>
-        <p class="about_txt-2">Through my studies, I have developed a strong skill set in web and graphic design, web integration, graphic and typographic creations, audio and video productions, communication, and social media. I am passionate about creating beautiful, engaging designs that enhance the user experience and tell a story.</p>
-        <p class="about_txt-2">During my semester abroad at Vanier College in Montreal, Canada, I had the opportunity to explore different aspects of graphic design and learn new ways to share ideas and create meaningful designs. This experience helped me refine my content creation skills as a web designer and furthered my commitment to producing work that is both visually appealing and engaging.</p>
-        <p class="about_txt-2">As a designer, I believe that it is essential to respond appropriately to the target audience and apply the principles and elements of design to create layouts that are accessible, engaging, and proper. I also believe in developing coherent and sustainable identities that reveal values and missions while constantly improving and evolving the quality of my creations.</p>
-        <p class="about_txt-2">I am always eager to collaborate with like-minded individuals on exciting projects and continue honing my skills as a designer. If you would like to get in touch, please feel free to contact me via email or LinkedIn. Thank you for taking the time to read my personal presentation, and I look forward to connecting with you soon!</p>
+        <h1 class="up">Lilian <span>Chesneau</span></h1>
+        <h2 class="about_subtitle-1 up">MMI Student</h2>
+        <p class="about_txt-2 left">My name is Lilian Chesneau, and I am a student of "BUT Métiers du Multimédia et de l'Internet" at the MMI department of IUT of Belfort-Montbéliard, specializing in web design and developement.</p>
+        <p class="about_txt-2 right">Through my studies, I have developed a strong skill set in web and graphic design, web integration, graphic and typographic creations, audio and video productions, communication, and social media. I am passionate about creating beautiful, engaging designs that enhance the user experience and tell a story.</p>
+        <p class="about_txt-2 left">During my semester abroad at Vanier College in Montreal, Canada, I had the opportunity to explore different aspects of graphic design and learn new ways to share ideas and create meaningful designs. This experience helped me refine my content creation skills as a web designer and furthered my commitment to producing work that is both visually appealing and engaging.</p>
+        <p class="about_txt-2 right">As a designer, I believe that it is essential to respond appropriately to the target audience and apply the principles and elements of design to create layouts that are accessible, engaging, and proper. I also believe in developing coherent and sustainable identities that reveal values and missions while constantly improving and evolving the quality of my creations.</p>
+        <p class="about_txt-2 left">I am always eager to collaborate with like-minded individuals on exciting projects and continue honing my skills as a designer. If you would like to get in touch, please feel free to contact me via email or LinkedIn. Thank you for taking the time to read my personal presentation, and I look forward to connecting with you soon!</p>
         
 
-        <h2 class="about_subtitle-2 mt-[8rem]">Hard Skills</h2>
+        <h2 class="about_subtitle-2 mt-[8rem] left">Hard Skills</h2>
         <div class="about_skills">
-          <div>Social media management</div>
-          <div>Adobe Creative Suite</div>
-          <div>Design principles</div>
-          <div>Responsive design</div>
-          <div>Content creation</div>
-          <div>Motion graphics</div>
-          <div>Unreal Engine</div>
-          <div>Video editing</div>
-          <div>Print design</div>
-          <div>Color theory</div>
-          <div>Copywriting</div>
-          <div>HTML & CSS</div>
-          <div>JavaScript</div>
-          <div>Typography</div>
-          <div>Wordpress</div>
-          <div>UX design</div>
-          <div>VueJS</div>
+          <div class="left">Social media management</div>
+          <div class="left">Adobe Creative Suite</div>
+          <div class="left">Design principles</div>
+          <div class="left">Responsive design</div>
+          <div class="left">Content creation</div>
+          <div class="left">Motion graphics</div>
+          <div class="left">Unreal Engine</div>
+          <div class="left">Video editing</div>
+          <div class="left">Print design</div>
+          <div class="left">Color theory</div>
+          <div class="left">Copywriting</div>
+          <div class="left">HTML & CSS</div>
+          <div class="left">JavaScript</div>
+          <div class="left">Typography</div>
+          <div class="left">Wordpress</div>
+          <div class="left">UX design</div>
+          <div class="left">VueJS</div>
         </div>
 
-        <h2 class="about_subtitle-2 text-left pt-[2rem]">Soft Skills</h2>
+        <h2 class="about_subtitle-2 text-left pt-[2rem] right">Soft Skills</h2>
         <div class="about_skills text-left mb-[10rem]">
-          <div>Empathy</div>
-          <div>Patience</div>
-          <div>Curiosity</div>
-          <div>Creativity</div>
-          <div>Adaptability</div>
-          <div>Collaboration</div>
-          <div>Communication</div>
-          <div>Time management</div>
-          <div>Attention to detail</div>
+          <div class="right">Empathy</div>
+          <div class="right">Patience</div>
+          <div class="right">Curiosity</div>
+          <div class="right">Creativity</div>
+          <div class="right">Adaptability</div>
+          <div class="right">Collaboration</div>
+          <div class="right">Communication</div>
+          <div class="right">Time management</div>
+          <div class="right">Attention to detail</div>
         </div>
 
-        <h1>Mo<span>re</span></h1>
-        <div class="BTN_download">
+        <h1 class="up">Mo<span>re</span></h1>
+        <div class="BTN_download up">
           <div class="container">
             <a class="BTN_download-link BTN_download-effect" data-sm-link-text="DOWNLOAD" href="../../public/files/[EN]Resume-LilianChesneau.pdf" download="[EN]Resume-LilianChesneau.pdf"><span>Curriculum vitæ</span></a>
           </div>
         </div>
-        <div class="BTN_download">
+        <div class="BTN_download up">
           <div class="container">
             <a class="BTN_download-link BTN_download-effect" data-sm-link-text="DOWNLOAD" href="../../public/files/[EN]PaperPortfolio_Lilian-Chesneau.pdf" download="[EN]PaperPortfolio_Lilian-Chesneau.pdf"><span>Paper Portfolio</span></a>
           </div>
         </div>
 
-        <div class="contact mt-[10rem]">
+        <div class="contact mt-[10rem] down">
           <h1 class="contact-h1">Contact</h1>
           <div class="contact-btn-container">
             <span class="BTN_twist">
@@ -93,7 +93,7 @@
             </span>
           </div>
           
-          <div class="contact_form">
+          <div class="contact_form down">
             <form action="https://formsubmit.co/contact@lilianchesneau.com" method="POST">
               <label for="name">Name:</label>
               <input type="text" required="">

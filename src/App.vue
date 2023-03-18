@@ -1,35 +1,97 @@
 <script>
   import { RouterLink, RouterView } from 'vue-router'
 
-export default {
+  export default {
     components: {
       RouterLink, RouterView
     },
-  mounted() {
-      //Cursor
-      const cursorz = document.getElementById("cursorz");
-      const moveCursor = event => {
-        const cursorWidth = cursorz.offsetWidth / 2;
-        cursorz.style.left = event.pageX - cursorWidth + "px";
-        cursorz.style.top = event.pageY - cursorWidth + "px";
-      };
-      document.addEventListener("mousemove", moveCursor);
-      
-      //Header et Menu
-      const hamburger = document.querySelector('.header .header_container .header_nav .header_nav-hamburger');
-      const mobile_menu = document.querySelector('.header .header_container .header_nav ul');
-      const menu_item = document.querySelectorAll('.header .header_container .header_nav ul li a');
-      hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        mobile_menu.classList.toggle('active');
-      });
-      menu_item.forEach((item) => {
-        item.addEventListener('click', () => {
+    mounted() {
+        //Cursor
+        const cursorz = document.getElementById("cursorz");
+        const moveCursor = event => {
+          const cursorWidth = cursorz.offsetWidth / 2;
+          cursorz.style.left = event.pageX - cursorWidth + "px";
+          cursorz.style.top = event.pageY - cursorWidth + "px";
+        };
+        document.addEventListener("mousemove", moveCursor);
+        
+        //Header et Menu
+        const hamburger = document.querySelector('.header .header_container .header_nav .header_nav-hamburger');
+        const mobile_menu = document.querySelector('.header .header_container .header_nav ul');
+        const menu_item = document.querySelectorAll('.header .header_container .header_nav ul li a');
+        hamburger.addEventListener('click', () => {
           hamburger.classList.toggle('active');
           mobile_menu.classList.toggle('active');
         });
-      });
-    }
+        menu_item.forEach((item) => {
+          item.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobile_menu.classList.toggle('active');
+          });
+        });
+
+        //Animations
+        window.addEventListener('scroll', up);
+        function up() {
+          var upanim = document.querySelectorAll('.up');
+          for (var i = 0; i < upanim.length; i++) {
+            var windowheight = window.innerHeight;
+            var revealtop = upanim[i].getBoundingClientRect().top;
+            var revealpoint = 200;
+            if (revealtop < windowheight - revealpoint) {
+              upanim[i].classList.add('up_active');
+            }
+            else {
+              upanim[i].classList.remove('up_active');
+            }
+          }
+        }
+        window.addEventListener('scroll', left);
+        function left() {
+          var leftanim = document.querySelectorAll('.left');
+          for (var i = 0; i < leftanim.length; i++) {
+            var windowheight = window.innerHeight;
+            var revealtop = leftanim[i].getBoundingClientRect().top;
+            var revealpoint = 200;
+            if (revealtop < windowheight - revealpoint) {
+              leftanim[i].classList.add('left_active');
+            }
+            else {
+              leftanim[i].classList.remove('left_active');
+            }
+          }
+        }
+        window.addEventListener('scroll', right);
+        function right() {
+          var rightanim = document.querySelectorAll('.right');
+          for (var i = 0; i < rightanim.length; i++) {
+            var windowheight = window.innerHeight;
+            var revealtop = rightanim[i].getBoundingClientRect().top;
+            var revealpoint = 200;
+            if (revealtop < windowheight - revealpoint) {
+              rightanim[i].classList.add('right_active');
+            }
+            else {
+              rightanim[i].classList.remove('right_active');
+            }
+          }
+        }
+        window.addEventListener('scroll', down);
+        function down() {
+          var downanim = document.querySelectorAll('.down');
+          for (var i = 0; i < downanim.length; i++) {
+            var windowheight = window.innerHeight;
+            var revealtop = downanim[i].getBoundingClientRect().top;
+            var revealpoint = 200;
+            if (revealtop < windowheight - revealpoint) {
+              downanim[i].classList.add('down_active');
+            }
+            else {
+              downanim[i].classList.remove('down_active');
+            }
+          }
+        }
+      }
   }
 </script>
 
@@ -115,7 +177,7 @@ export default {
 <style>
   html {
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
   }
 
   /* ===== Cursor ===== */

@@ -1,15 +1,15 @@
 <template>
   <div class="separator"></div>
 
-  <h1 class="text-center">Other stuff</h1>
+  <h1 class="text-center down">Other stuff</h1>
 
   <div class="tab--mobile">
     <div>
-      <h1>My work at Vanier College</h1>
-      <p>I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>
-      <div><img src="../../public/img/Vanier.png" alt="Logo Cegep College Vanier"></div>
+      <h2 class="up mt-[5rem]">My work at Vanier College</h2>
+      <p class="up">I had the chance to study for a semester at CEGEP Vanier College in Montreal in their Multimedia Integration program. Click on the link to discover the work done there.</p>
+      <div class="up"><img src="../../public/img/Vanier.png" alt="Logo Cegep College Vanier"></div>
       <a href="https://lilian39.micromediaweb.com/" target="_blank">
-        <button>
+        <button class="down">
           <span>See more</span>
           <div class="BTN_liquid"></div>
         </button>

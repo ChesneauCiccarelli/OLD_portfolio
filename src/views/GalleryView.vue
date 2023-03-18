@@ -123,7 +123,7 @@
     </section>
   </div>
 
-  <section class="glasmorphism_container">
+  <section class="glasmorphism_container up">
     <div class="glasmorphism_content text-[#F5F5F5]">
       <h1>More?</h1>
       <p>Want to see more of my design work and stay updated on my latest projects? Follow me on social media!</p>

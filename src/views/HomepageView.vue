@@ -5,12 +5,12 @@
   import magicText from "../components/MagicText.vue"
   import tab from "../components/Tab.vue"
   import project from "../components/Projets.vue"
+  
 
   export default {
     components: {
       about, colors, socials, magicText, project, tab,
     },
-
   }
 </script>
 
@@ -28,7 +28,7 @@
 
   <about />
 
-  <socials />
+  <socials class="down" />
 
   <magicText />
 

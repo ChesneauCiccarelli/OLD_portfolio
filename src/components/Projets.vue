@@ -1,13 +1,13 @@
 <template>
   <section id="project">
-    <article class="project">
+    <article class="project up">
       <div class="project_header mt-[20rem]">
         <h1 class="project_header-title">A journey trought my work</h1>
       </div>
 
       <div class="project_layout">
         <div class="project_item">
-          <div class="project_item-info">
+          <div class="project_item-info right">
             <RouterLink class="header_container-homelink" to="/womenswork">
               <h1 class="underlinelink">Women's Work</h1>
             </RouterLink>
@@ -20,13 +20,13 @@
               </button>
             </RouterLink>
           </div>
-          <RouterLink class="project_img" to="/womenswork">
+          <RouterLink class="project_img left" to="/womenswork">
             <img class="rounded-[20px]" src="/public/img/ww.png" alt="Women's Work Mock">
           </RouterLink>
         </div>
 
         <div class="project_item">
-          <div class="project_item-info">
+          <div class="project_item-info right">
             <RouterLink class="header_container-homelink" to="/deepdown">
               <h1 class="underlinelink">Deep Down festival</h1>
             </RouterLink>
@@ -39,13 +39,13 @@
               </button>
             </RouterLink>
           </div>
-          <RouterLink class="project_img" to="/deepdown">
+          <RouterLink class="project_img left" to="/deepdown">
             <img class="rounded-[20px]" src="/public/img/dd-homepage.png" alt="Deep Down Festival mock up">
           </RouterLink>
         </div>
 
         <div class="project_item">
-          <div class="project_item-info">
+          <div class="project_item-info right">
             <RouterLink class="header_container-homelink" to="/fulmine">
               <h1 class="underlinelink">Fulmine</h1>
             </RouterLink>
@@ -58,8 +58,8 @@
               </button>
             </RouterLink>
           </div>
-          <RouterLink class="project_img" to="/fulmine">
-            <img class="rounded-[20px]" src="/public/img/ful-logos.png" alt="Deep Down Festival mock up">
+          <RouterLink class="project_img left" to="/fulmine">
+            <img class="rounded-[20px]" src="/public/img/ful-carre.png" alt="Deep Down Festival mock up">
           </RouterLink>
         </div>
 
