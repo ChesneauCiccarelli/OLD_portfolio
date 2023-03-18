@@ -22,10 +22,10 @@
     <section class="project section_A mt-0">
       <div class="project_container">
         <div class="z-10">
-          <h1>Fulmine</h1>
-          <h2>Brand Style Guide</h2>
-          <p>This Italian car dealer aims to move the idea of luxurious cars to a new era. This brand wants to development new healthier and environmentally friendly driving styles and way of living. They put the future at the center point of their evolution with responsible electric cars. They want to reduce environmental pollution and prevent global warming, as well as diversifying energy sources from petroleum and fossil energies.</p>
-          <p class="project_subtitle">¿What is this project about?</p>
+          <h1 class="right">Fulmine</h1>
+          <h2 class="right">Brand Style Guide</h2>
+          <p class="right">This Italian car dealer aims to move the idea of luxurious cars to a new era. This brand wants to development new healthier and environmentally friendly driving styles and way of living. They put the future at the center point of their evolution with responsible electric cars. They want to reduce environmental pollution and prevent global warming, as well as diversifying energy sources from petroleum and fossil energies.</p>
+          <p class="project_subtitle right">¿What is this project about?</p>
         </div>
         <div></div>
       </div>
@@ -35,9 +35,9 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1>Sharing values</h1>
-          <p>Brands often like to share their values because it helps them connect with their audience on a deeper level. When a brand shares its values, it shows what it stands for and what it believes in. This can create an emotional connection with consumers who share similar values, leading to increased loyalty and advocacy.</p>
-          <p class="project_subtitle">¿Connecting with consumers?</p>
+          <h1 class="left">Sharing values</h1>
+          <p class="left">Brands often like to share their values because it helps them connect with their audience on a deeper level. When a brand shares its values, it shows what it stands for and what it believes in. This can create an emotional connection with consumers who share similar values, leading to increased loyalty and advocacy.</p>
+          <p class="project_subtitle left">¿Connecting with consumers?</p>
         </div>
       </div>
     </section>
@@ -45,12 +45,12 @@
     <section class="project section_A">
       <div class="project_container">
         <div class="z-10">
-          <h1>The name</h1>
-          <p>The typographic logo of the Fulmine brand represents the whole history of the brand house. It reflects the identity, personality and values we want to share with the world. All this is accentuated with the lightning bolt, our graphic element that reminds us of our ecological and sustainable values. The name is often the first point of contact between the brand and the consumer, and it can have a significant impact on the consumer's perception of the brand. A brand name should be memorable, distinctive, and easy to pronounce and spell. It should also be unique enough to distinguish the brand from its competitors.</p>
-          <p class="project_subtitle">¿What is a name?</p>
+          <h1 class="right">The name</h1>
+          <p class="right">The typographic logo of the Fulmine brand represents the whole history of the brand house. It reflects the identity, personality and values we want to share with the world. All this is accentuated with the lightning bolt, our graphic element that reminds us of our ecological and sustainable values. The name is often the first point of contact between the brand and the consumer, and it can have a significant impact on the consumer's perception of the brand. A brand name should be memorable, distinctive, and easy to pronounce and spell. It should also be unique enough to distinguish the brand from its competitors.</p>
+          <p class="project_subtitle right">¿What is a name?</p>
         </div>
         <div class="z-[1]">
-          <img class="IMG_project scale-75" src="../../public/img/ful-logogap.png" alt="Fulmine Sizing">
+          <img class="IMG_project scale-75 left" src="../../public/img/ful-logogap.png" alt="Fulmine Sizing">
         </div>
       </div>
     </section>
@@ -58,15 +58,15 @@
     <section class="section_C">
       <div class="section_C-content">
         <div class="section_C-1 z-10">
-          <h1>Guidelines</h1>
-          <p>For each visual element you have identified, create clear guidelines for its use. Determine the minimum size for your logo, the exact colours you use and the fonts you use ...</p>
+          <h1 class="right">Guidelines</h1>
+          <p class="right">For each visual element you have identified, create clear guidelines for its use. Determine the minimum size for your logo, the exact colours you use and the fonts you use ...</p>
         </div>
-        <div class="z-[1]]">
+        <div class="z-[1]] up">
           <img src="../../public/img/ful-bsg.png" alt="Type Artwork Fulmine BSG">
         </div>
         <div class="section_C-2 z-10">
-          <h1>Applications</h1>
-          <p>Identify the media on which your brand will be applied, such as print, social media and the website. For each medium, provide specific guidelines for the use of your brand elements.</p>
+          <h1 class="left">Applications</h1>
+          <p class="left">Identify the media on which your brand will be applied, such as print, social media and the website. For each medium, provide specific guidelines for the use of your brand elements.</p>
         </div>
       </div>
     </section>
@@ -74,12 +74,12 @@
     <section class="project section_B">
       <div class="project_container">
         <div class="z-[1]">
-            <img class="IMG_project" src="../../public/img/ful-keywords.png" alt="Keywords Fulmine">
+            <img class="IMG_project right" src="../../public/img/ful-keywords.png" alt="Keywords Fulmine">
           </div>
         <div class="z-10">
-          <h1>Keywords</h1>
-          <p>Using keywords helps establish a strong brand because they are a powerful tool for communicating your brand message to your target audience. Keywords are the words or phrases that people use to search for information online, and they help to define the essence of your brand.</p>
-          <p class="project_subtitle">¿Differentiate your brand?</p>
+          <h1 class="left">Keywords</h1>
+          <p class="left">Using keywords helps establish a strong brand because they are a powerful tool for communicating your brand message to your target audience. Keywords are the words or phrases that people use to search for information online, and they help to define the essence of your brand.</p>
+          <p class="project_subtitle left">¿Differentiate your brand?</p>
         </div>
       </div>
     </section>
@@ -87,11 +87,11 @@
     <section class="project section_A">
       <div class="project_container">
         <div class="z-10">
-          <h1>Colors</h1>
-          <p>The colors of a brand can represent different things depending on the brand's identity and message. However, generally speaking, colors can evoke specific emotions or convey certain meanings to consumers. It's important to note that colors can have different meanings in different cultures, so a brand's choice of colors should take this into consideration if they operate in multiple markets. Overall, the colors of a brand are an essential aspect of its visual identity and can influence consumer perceptions and behavior.</p>
-          <p class="project_subtitle">¿Represeting your values?</p>
+          <h1 class="right">Colors</h1>
+          <p class="right">The colors of a brand can represent different things depending on the brand's identity and message. However, generally speaking, colors can evoke specific emotions or convey certain meanings to consumers. It's important to note that colors can have different meanings in different cultures, so a brand's choice of colors should take this into consideration if they operate in multiple markets. Overall, the colors of a brand are an essential aspect of its visual identity and can influence consumer perceptions and behavior.</p>
+          <p class="project_subtitle right">¿Represeting your values?</p>
         </div>
-        <div class="z-[1]">
+        <div class="z-[1] left">
           <img class="IMG_project" src="../../public/img/ful-colors.png" alt="Couleurs de fulmine">
         </div>
       </div>
@@ -100,12 +100,12 @@
     <section class="project section_B">
       <div class="project_container">
         <div class="z-[1]">
-          <img class="IMG_project" src="../../public/img/ful-type.png" alt="Typographie Fulmine Brand">
+          <img class="IMG_project right" src="../../public/img/ful-type.png" alt="Typographie Fulmine Brand">
         </div>
         <div class="z-10">
-          <h1>Typography</h1>
-          <p>Typography plays an important role in shaping a brand's identity and image. It helps to establish a visual language that communicates a brand's personality, values, and message to its audience. A well-designed typography system can create a consistent and memorable brand experience across all touchpoints, from the logo to packaging, advertising, and digital channels.</p>
-          <p class="project_subtitle">¿Representing your vision?</p>
+          <h1 class="left">Typography</h1>
+          <p class="left">Typography plays an important role in shaping a brand's identity and image. It helps to establish a visual language that communicates a brand's personality, values, and message to its audience. A well-designed typography system can create a consistent and memorable brand experience across all touchpoints, from the logo to packaging, advertising, and digital channels.</p>
+          <p class="project_subtitle left">¿Representing your vision?</p>
         </div>
       </div>
     </section>
@@ -191,9 +191,9 @@
     <section class="project section_A">
       <div class="project_container">
         <div class="z-10">
-          <h1>The experience </h1>
-          <p>One of the many branding projects I did during my semester at <a class="underlinelink" href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noopener noreferrer">Vanier College</a> in Montreal, in <a class="underlinelink" href="https://www.behance.net/robertyoung?tracking_source=search_users%7Crobert%20young" target="_blank" rel="noopener noreferrer">Mr. Robert Young</a>'s class. The creation of a brand must respect a number of factors explained throughout this presentation, they are the keys to the success of a brand that can stand out and evolve in the world.</p>
-          <p class="project_subtitle">¿build up your competence?</p>
+          <h1 class="right">The experience </h1>
+          <p class="right">One of the many branding projects I did during my semester at <a class="underlinelink" href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noopener noreferrer">Vanier College</a> in Montreal, in <a class="underlinelink" href="https://www.behance.net/robertyoung?tracking_source=search_users%7Crobert%20young" target="_blank" rel="noopener noreferrer">Mr. Robert Young</a>'s class. The creation of a brand must respect a number of factors explained throughout this presentation, they are the keys to the success of a brand that can stand out and evolve in the world.</p>
+          <p class="project_subtitle right">¿build up your competence?</p>
         </div>
         <div></div>
       </div>
@@ -203,18 +203,18 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1>Feedback</h1>
-          <p>A project that gave me a lot of knowledge on graphic design software such as Indesign and Illustrator. The purpose of brand guidelines is to ensure consistency and coherence in how a brand is perceived and represented across all channels and touchpoints, both online and offline. By providing clear guidelines for how the brand should be presented, it helps to build brand recognition and trust, and ensures that the brand is accurately and consistently portrayed to its audience.</p>
-          <p class="project_subtitle">¿What are Brand Guidelines?</p>
+          <h1 class="left">Feedback</h1>
+          <p class="left">A project that gave me a lot of knowledge on graphic design software such as Indesign and Illustrator. The purpose of brand guidelines is to ensure consistency and coherence in how a brand is perceived and represented across all channels and touchpoints, both online and offline. By providing clear guidelines for how the brand should be presented, it helps to build brand recognition and trust, and ensures that the brand is accurately and consistently portrayed to its audience.</p>
+          <p class="project_subtitle left">¿What are Brand Guidelines?</p>
         </div>
       </div>
     </section>
 
-    <div>
+    <div class="up">
       <a class="BTN_glitch faded z-10" href="../../public/files/Brand guide_Lilian_Chesneau.pdf" download="Fulmine_BrandStyleGuide">Download the product</a>
     </div>
 
-    <div class="m-auto text-center mt-[10rem]">
+    <div class="m-auto text-center mt-[10rem] up">
       <RouterLink to="/">
         <button class="m-auto z-10">
           <span>Other projects</span>
@@ -250,7 +250,7 @@ export default {
     const simplex = new SimplexNoise();
 
     const tailleMax = $('html').height();
-    const numero = tailleMax + (tailleMax / 4);
+    const numero = tailleMax + (tailleMax / 5.5);
 
     for (let i = 0; i < numero; i++) {
       // créer un nouveau cercle
@@ -277,7 +277,7 @@ export default {
       scrollTrigger: {
         scrub: .7,
         start: "top 40%",
-        end: "bottom 90%"
+        end: "bottom bottom"
       }
     });
     Circles.forEach(circle => {

@@ -22,10 +22,10 @@
     <section class="project section_A mt-0">
       <div class="project_container">
         <div class="z-10">
-          <h1>Deep Down Festival</h1>
-          <h2>Branding a music festival</h2>
-          <p>Get ready to dive deep into the world of electronic music with the DEEP DOWN Festival! Our three-day celebration is the ultimate tribute to the genre's biggest and best elements. By combining the two most beloved electronic genres - House and Chillout - we're bringing you an experience like no other.</p>
-          <p class="project_subtitle">¿What is this project about?</p>
+          <h1 class="right">Deep Down Festival</h1>
+          <h2 class="right">Branding a music festival</h2>
+          <p class="right">Get ready to dive deep into the world of electronic music with the DEEP DOWN Festival! Our three-day celebration is the ultimate tribute to the genre's biggest and best elements. By combining the two most beloved electronic genres - House and Chillout - we're bringing you an experience like no other.</p>
+          <p class="project_subtitle right">¿What is this project about?</p>
         </div>
         <div></div>
       </div>
@@ -35,10 +35,10 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1>The story</h1>
-          <p>Our festival will be held in the beautiful city of Bordeaux. While the city has not previously hosted many festivals centered around electronic music, we want to explore the diverse world of electronic music as a whole. Transform everything for a unique and immersive experience. The beautiful outdoor setting of Bordeaux will provide the perfect backdrop for an unforgettable event.
+          <h1 class="left">The story</h1>
+          <p class="left">Our festival will be held in the beautiful city of Bordeaux. While the city has not previously hosted many festivals centered around electronic music, we want to explore the diverse world of electronic music as a whole. Transform everything for a unique and immersive experience. The beautiful outdoor setting of Bordeaux will provide the perfect backdrop for an unforgettable event.
           </p>
-          <p class="project_subtitle">¿Making it plausible?</p>
+          <p class="project_subtitle left">¿Making it plausible?</p>
         </div>
       </div>
     </section>
@@ -46,11 +46,11 @@
     <section class="project section_A">
       <div class="project_container">
         <div class="z-10">
-          <h1>The name</h1>
-          <p>The idea is to dive deep into the musical genre by going over everything that made up its universe. The name refers to this idea of re-discovering the history of the greatest advances in the dispersion of the electronic genre. It is here to evoke a sense of exploring the depths of one's emotions and connecting with the innermost aspects of oneself through music.</p>
-          <p class="project_subtitle">¿Starting the journey?</p>
+          <h1 class="right">The name</h1>
+          <p class="right">The idea is to dive deep into the musical genre by going over everything that made up its universe. The name refers to this idea of re-discovering the history of the greatest advances in the dispersion of the electronic genre. It is here to evoke a sense of exploring the depths of one's emotions and connecting with the innermost aspects of oneself through music.</p>
+          <p class="project_subtitle right">¿Starting the journey?</p>
         </div>
-          <div class="z-[1]">
+          <div class="z-[1] left">
             <img class="IMG_project" src="../../public/img/dd-sketches.png" alt="Logo Sketches">
           </div>
       </div>
@@ -59,15 +59,15 @@
     <section class="section_C">
       <div class="section_C-content">
         <div class="section_C-1 z-10">
-          <h1>An identity</h1>
-          <p>For the creation of the festival's identity, simplicity was the key word. The shapes are very geometrical and leave room for the effect of emptiness in the centre of the logo, which is meant to recall the name of the festival with the effect of "falling". </p>
+          <h1 class="right">An identity</h1>
+          <p class="right">For the creation of the festival's identity, simplicity was the key word. The shapes are very geometrical and leave room for the effect of emptiness in the centre of the logo, which is meant to recall the name of the festival with the effect of "falling". </p>
         </div>
-        <div class="z-[1]]">
+        <div class="z-[1]] up">
           <img src="../../public/img/dd-logosimple.png" alt="Différents logos du Deep Down Festival">
         </div>
         <div class="section_C-2 z-10">
-          <h1>Simplicity</h1>
-          <p>The shapes are very geometric and leave room for the effect of emptiness in the center. The black and white colors give way to a nostalgia as highlighted in our theme. The elegant white reinforces the impression of emptiness and the black offers a rather friendly and private feeling of intimacy.</p>
+          <h1 class="left">Simplicity</h1>
+          <p class="left">The shapes are very geometric and leave room for the effect of emptiness in the center. The black and white colors give way to a nostalgia as highlighted in our theme. The elegant white reinforces the impression of emptiness and the black offers a rather friendly and private feeling of intimacy.</p>
         </div>
       </div>
     </section>
@@ -76,9 +76,9 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1>Strategy</h1>
-          <p>A good project needs to be able to rely on accurate information research to define its target. It offers better understanding of customers' needs, wants, and preferences. Developing marketing messages and campaigns that resonate with their target audience and drive engagement is the way to succes. </p>
-          <p class="project_subtitle">¿Focus on the users?</p>
+          <h1 class="left">Strategy</h1>
+          <p class="left">A good project needs to be able to rely on accurate information research to define its target. It offers better understanding of customers' needs, wants, and preferences. Developing marketing messages and campaigns that resonate with their target audience and drive engagement is the way to succes. </p>
+          <p class="project_subtitle left">¿Focus on the users?</p>
         </div>
       </div>
     </section>
@@ -86,12 +86,12 @@
     <section class="project section_A">
       <div class="project_container">
         <div class="z-10">
-          <h1>Colors</h1>
-          <p>The black and white colours give way to a nostalgia as highlighted in our theme. The elegant white reinforces the impression of emptiness and the black offers a feeling of intimacy and privacy.</p>
-          <p class="project_subtitle">¿Setting up the mood?</p>
+          <h1 class="right">Colors</h1>
+          <p class="right">The black and white colours give way to a nostalgia as highlighted in our theme. The elegant white reinforces the impression of emptiness and the black offers a feeling of intimacy and privacy.</p>
+          <p class="project_subtitle right">¿Setting up the mood?</p>
         </div>
         <div class="z-[1]">
-          <img class="IMG_project" src="../../public/img/dd-logos.png" alt="Déclinaison des logos">
+          <img class="IMG_project  left" src="../../public/img/dd-logos.png" alt="Déclinaison des logos">
         </div>
       </div>
     </section>
@@ -99,12 +99,12 @@
     <section class="project section_B">
       <div class="project_container">
         <div class="z-[1]">
-          <img class="IMG_project" src="../../public/img/dd-affiche.png" alt="Exemple d'une affiche publicitaire">
+          <img class="IMG_project right" src="../../public/img/dd-affiche.png" alt="Exemple d'une affiche publicitaire">
         </div>
         <div class="z-10">
-          <h1>Typography</h1>
-          <p>The use of sans-serif typography promotes readability and comprehension while also providing a sense of neutrality and simplicity. It is important to carefully consider the placement and design of each element to ensure that the viewer can easily navigate and understand the information presented. By striking a balance between simplicity and contrast, we can create a visually appealing and effective design that effectively communicates its message to the intended audience.</p>
-          <p class="project_subtitle">¿Layout and readability?</p>
+          <h1 class="left">Typography</h1>
+          <p class="left">The use of sans-serif typography promotes readability and comprehension while also providing a sense of neutrality and simplicity. It is important to carefully consider the placement and design of each element to ensure that the viewer can easily navigate and understand the information presented. By striking a balance between simplicity and contrast, we can create a visually appealing and effective design that effectively communicates its message to the intended audience.</p>
+          <p class="project_subtitle left">¿Layout and readability?</p>
         </div>
       </div>
     </section>
@@ -190,11 +190,11 @@
     <section class="project section_A">
       <div class="project_container">
         <div class="z-10">
-          <h1>The experience </h1>
-          <p>This project was my first Vue Js project. It was carried out as part of an educational
+          <h1 class="rigth">The experience </h1>
+          <p class="right">This project was my first Vue Js project. It was carried out as part of an educational
             exercise at the <a class="underlinelink" href="#" target="_blank" rel="noopener noreferrer">MMI
               Montbéliard</a> department during my second semester of study. This project combines all the skills needed for this training: communication, design of a brand identity and website integration.</p>
-          <p class="project_subtitle">¿Draw on its skills?</p>
+          <p class="project_subtitle right">¿Draw on its skills?</p>
         </div>
         <div></div>
       </div>
@@ -204,19 +204,19 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1>Feedback</h1>
-          <p>This experience has allowed me to develop new skills but also to strengthen others. I was able to improve my approach to web design and integration by discovering new technologies such as VueJs, Tailwind, Firebase and strengthen my skills with Figma in creating components and layouts.</p>
-          <p class="project_subtitle">¿what I learnt from it?</p>
+          <h1 class="left">Feedback</h1>
+          <p class="left">This experience has allowed me to develop new skills but also to strengthen others. I was able to improve my approach to web design and integration by discovering new technologies such as VueJs, Tailwind, Firebase and strengthen my skills with Figma in creating components and layouts.</p>
+          <p class="project_subtitle left">¿what I learnt from it?</p>
         </div>
       </div>
     </section>
 
-    <div>
+    <div class="up">
       <a class="BTN_glitch faded z-10" href="https://deepdown.lilianchesneau.com/" target="_blank">Take a look of the
         product</a>
     </div>
 
-    <div class="m-auto text-center mt-[10rem]">
+    <div class="m-auto text-center mt-[10rem] up">
       <RouterLink to="/">
         <button class="m-auto z-10">
           <span>Other projects</span>
@@ -252,7 +252,7 @@ export default {
     const simplex = new SimplexNoise();
 
     const tailleMax = $('html').height();
-    const numero = tailleMax + (tailleMax / 5.3);
+    const numero = tailleMax + (tailleMax / 5.5);
 
     for (let i = 0; i < numero; i++) {
       // créer un nouveau cercle

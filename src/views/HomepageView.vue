@@ -17,14 +17,7 @@
 <template>
   <colors />
 
-  <section id="hero">
-    <article class="hero">
-      <div>
-        <h1 class="hero_txt">lilian chesneau<span></span></h1>
-        <h1 class="hero_txt">mmi student<span></span></h1>
-      </div>
-    </article>
-  </section>
+
 
   <about />
 

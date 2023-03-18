@@ -22,10 +22,10 @@
       <section class="project section_A mt-0">
         <div class="project_container">
           <div class="z-10">
-            <h1>Women's Work</h1>
-            <h2>THE EMANCIPATION OF WOMEN'S WORK</h2>
-            <p>If you want to stand up against inequality, and always fight for what is right, you are in the right place to discover the roots of feminist ideology. Gender inequality is still present in our society and it is very visible especially in the workplace. How do we deal with it today?</p>
-            <p class="project_subtitle">¿What is this project about?</p>
+            <h1 class="right">Women's Work</h1>
+            <h2 class="right">THE EMANCIPATION OF WOMEN'S WORK</h2>
+            <p class="right">If you want to stand up against inequality, and always fight for what is right, you are in the right place to discover the roots of feminist ideology. Gender inequality is still present in our society and it is very visible especially in the workplace. How do we deal with it today?</p>
+            <p class="project_subtitle right">¿What is this project about?</p>
           </div>
           <div></div>
         </div>
@@ -35,9 +35,9 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1>Gendered work</h1>
-          <p>Women's Work is a compelling exploration of the history and evolution of gendered work in our society. Through a journey spanning the 20th century to the present day, this project sheds light on the struggles and triumphs of women in their fight for equality in the workplace.</p>
-          <p class="project_subtitle">¿how is this approached?</p>
+          <h1  class="left">Gendered work</h1>
+          <p class="left">Women's Work is a compelling exploration of the history and evolution of gendered work in our society. Through a journey spanning the 20th century to the present day, this project sheds light on the struggles and triumphs of women in their fight for equality in the workplace.</p>
+          <p class="project_subtitle left">¿how is this approached?</p>
         </div>
         </div>
       </section>
@@ -45,9 +45,9 @@
       <section class="project section_A">
         <div class="project_container">
           <div class="z-10">
-            <h1>Their story</h1>
-            <p>By sharing powerful stories of women's experiences during the great wage and industrial revolutions, this project highlights the impact of gendered and sexist work, and raises awareness of the pervasive issue of unequal pay. Ultimately, Women's Work offers hope and inspiration, presenting key figures and insights that empower us all to contribute to a more just and equitable world.</p>
-            <p class="project_subtitle">¿what is highlighted?</p>
+            <h1 class="right">Their story</h1>
+            <p class="right">By sharing powerful stories of women's experiences during the great wage and industrial revolutions, this project highlights the impact of gendered and sexist work, and raises awareness of the pervasive issue of unequal pay. Ultimately, Women's Work offers hope and inspiration, presenting key figures and insights that empower us all to contribute to a more just and equitable world.</p>
+            <p class="project_subtitle right">¿what is highlighted?</p>
           </div>
           <div></div>
         </div>
@@ -56,15 +56,15 @@
       <section class="section_C">
         <div class="section_C-content">
           <div class="section_C-1 z-10">
-            <h1>Mobile Way</h1>
-            <p>Designed and developed only prioritizing the mobile user experience over the desktop experience. Simplicity and clarity, easily accessible on smaller screens. Touch screen interface to scroll around the articles and have a nice reading session.</p>
+            <h1 class="left">Mobile Way</h1>
+            <p class="left">Designed and developed only prioritizing the mobile user experience over the desktop experience. Simplicity and clarity, easily accessible on smaller screens. Touch screen interface to scroll around the articles and have a nice reading session.</p>
           </div>
-          <div class="z-[1]]">
+          <div class="z-[1]] up">
             <img src="../../public/img/ww-iphoneHOME.png" alt="Women's WOrk Mock-up">
           </div>
           <div class="section_C-2 z-10">
-            <h1>Bilingual</h1>
-            <p>Increased accessibility, improved user experience, increased engagement, improved SEO, and enhanced cultural understanding. Easy access and engagement with the content.</p>
+            <h1 class="right">Bilingual</h1>
+            <p class="right">Increased accessibility, improved user experience, increased engagement, improved SEO, and enhanced cultural understanding. Easy access and engagement with the content.</p>
           </div>
         </div>
       </section>
@@ -73,9 +73,9 @@
         <div class="project_container">
           <div></div>
           <div class="z-10">
-            <h1>The vision</h1>
-            <p>My project is an engaging and enlightening introduction to feminist ideology. Its primary objective is to spark students' interest and encourage them to learn, without overwhelming or alienating them. The site is designed to create a comfortable and immersive learning experience that fosters a modern approach to the subject matter.</p>
-            <p class="project_subtitle">¿Focus on the focus?</p>
+            <h1 class="right">The vision</h1>
+            <p class="right">My project is an engaging and enlightening introduction to feminist ideology. Its primary objective is to spark students' interest and encourage them to learn, without overwhelming or alienating them. The site is designed to create a comfortable and immersive learning experience that fosters a modern approach to the subject matter.</p>
+            <p class="project_subtitle right">¿Focus on the focus?</p>
           </div>
         </div>
       </section>
@@ -83,11 +83,11 @@
       <section class="project section_A">
         <div class="project_container">
           <div class="z-10">
-            <h1>Colors</h1>
-            <p>Confidence, authority, stability, reliability, trust, credibility but with compassion, love and understanding for a warm and welcoming environment. A mix of bold and soft colors that work together to create a balanced and harmonious visual experience. The contrast between the deep blue and the soft pink, as well as the use of white as a neutral base, creates a dynamic and engaging color palette that is both modern and timeless.</p>
-            <p class="project_subtitle">¿Creating an environment?</p>
+            <h1 class="left">Colors</h1>
+            <p class="left">Confidence, authority, stability, reliability, trust, credibility but with compassion, love and understanding for a warm and welcoming environment. A mix of bold and soft colors that work together to create a balanced and harmonious visual experience. The contrast between the deep blue and the soft pink, as well as the use of white as a neutral base, creates a dynamic and engaging color palette that is both modern and timeless.</p>
+            <p class="project_subtitle left">¿Creating an environment?</p>
           </div>
-          <div class="z-[1]">
+          <div class="z-[1] right">
             <img class="IMG_project" src="../../public/img/ww-colorsshading.jpg" alt="Artwork Women's Work">
           </div>
         </div>
@@ -95,13 +95,13 @@
 
       <section class="project section_B">
         <div class="project_container">
-          <div class="z-[1]">
+          <div class="z-[1] left">
             <img class="IMG_project" src="../../public/img/ww-pages.png" alt="Pages du site Women's Work">
           </div>
           <div class="z-10">
-            <h1>Typography</h1>
-            <p>It is important to consider legibility, font size and weight, contrast, compatibility, branding, and accessibility. By considering these characteristics, you can choose a typography that enhances the user experience and supports your website's overall design and branding. Encourage reading on a small screen and ensure that our target group is satisfied.</p>
-            <p class="project_subtitle">¿Reading on the web?</p>
+            <h1 class="right">Typography</h1>
+            <p class="right">It is important to consider legibility, font size and weight, contrast, compatibility, branding, and accessibility. By considering these characteristics, you can choose a typography that enhances the user experience and supports your website's overall design and branding. Encourage reading on a small screen and ensure that our target group is satisfied.</p>
+            <p class="project_subtitle right">¿Reading on the web?</p>
           </div>
         </div>
       </section>
@@ -187,9 +187,9 @@
       <section class="project section_A">
         <div class="project_container">
           <div class="z-10">
-            <h1>The experience </h1>
-            <p>This project was my first web design and integration project. It was carried out as part of an educational exercise at the <a class="underlinelink" href="#" target="_blank" rel="noopener noreferrer">MMI Montbéliard</a> department during my first semester of study. The subject of feminism is both intellectually stimulating and personally enlightening. It addresses a pressing and consequential issue that is fundamentally tied to social justice and the fight for gender equality.</p>
-            <p class="project_subtitle">¿the beginning of a journey?</p>
+            <h1 class="left">The experience </h1>
+            <p class="left">This project was my first web design and integration project. It was carried out as part of an educational exercise at the <a class="underlinelink" href="#" target="_blank" rel="noopener noreferrer">MMI Montbéliard</a> department during my first semester of study. The subject of feminism is both intellectually stimulating and personally enlightening. It addresses a pressing and consequential issue that is fundamentally tied to social justice and the fight for gender equality.</p>
+            <p class="project_subtitle left">¿the beginning of a journey?</p>
           </div>
           <div></div>
         </div>
@@ -199,18 +199,18 @@
         <div class="project_container">
           <div></div>
           <div class="z-10">
-            <h1>Feedback</h1>
-            <p>By exploring feminist ideology, one can gain a deeper understanding of the systemic injustices that women have faced throughout history and continue to face today. Furthermore, this exploration can lead to valuable insights and personal growth, as it requires us to challenge our own biases and preconceptions about gender roles and identities.</p>
-            <p class="project_subtitle">¿what I learnt from it?</p>
+            <h1 class="right">Feedback</h1>
+            <p class="right">By exploring feminist ideology, one can gain a deeper understanding of the systemic injustices that women have faced throughout history and continue to face today. Furthermore, this exploration can lead to valuable insights and personal growth, as it requires us to challenge our own biases and preconceptions about gender roles and identities.</p>
+            <p class="project_subtitle right">¿what I learnt from it?</p>
           </div>
         </div>
       </section>
           
       <div>
-        <a class="BTN_glitch faded z-10" href="https://womenswork.lilianchesneau.com/" target="_blank">Take a look of the product</a>
+        <a class="BTN_glitch up z-10" href="https://womenswork.lilianchesneau.com/" target="_blank">Take a look of the product</a>
       </div>
 
-      <div class="m-auto text-center mt-[10rem]">
+      <div class="m-auto text-center mt-[10rem] up">
         <RouterLink to="/">
           <button class="m-auto z-10">
             <span>Other projects</span>
@@ -247,7 +247,7 @@ export default {
     const simplex = new SimplexNoise();
     
     const tailleMax = $('html').height();
-    const numero = tailleMax + (tailleMax / 5.3);
+    const numero = tailleMax + (tailleMax / 5.5);
 
     for (let i = 0; i < numero; i++) {
       // créer un nouveau cercle

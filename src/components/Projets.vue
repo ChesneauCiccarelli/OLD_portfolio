@@ -21,7 +21,7 @@
             </RouterLink>
           </div>
           <RouterLink class="project_img left" to="/womenswork">
-            <img class="rounded-[20px]" src="/public/img/ww.png" alt="Women's Work Mock">
+            <img class="rounded-[20px] m-auto" src="/public/img/ww.png" alt="Women's Work Mock">
           </RouterLink>
         </div>
 
@@ -40,7 +40,7 @@
             </RouterLink>
           </div>
           <RouterLink class="project_img left" to="/deepdown">
-            <img class="rounded-[20px]" src="/public/img/dd-homepage.png" alt="Deep Down Festival mock up">
+            <img class="rounded-[20px] m-auto" src="/public/img/dd-homepage.png" alt="Deep Down Festival mock up">
           </RouterLink>
         </div>
 
@@ -59,7 +59,7 @@
             </RouterLink>
           </div>
           <RouterLink class="project_img left" to="/fulmine">
-            <img class="rounded-[20px]" src="/public/img/ful-carre.png" alt="Deep Down Festival mock up">
+            <img class="rounded-[20px] m-auto" src="/public/img/ful-bsg.png" alt="Deep Down Festival mock up">
           </RouterLink>
         </div>
 
