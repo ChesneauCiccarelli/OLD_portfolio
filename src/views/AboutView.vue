@@ -32,32 +32,32 @@
       <div class="about_innercontainer">
         <h1 class="up">Lilian <span>Chesneau</span></h1>
         <h2 class="about_subtitle-1 up">MMI Student</h2>
-        <p class="about_txt-2 left">My name is Lilian Chesneau, and I am a student of "BUT Métiers du Multimédia et de l'Internet" at the MMI department of IUT of Belfort-Montbéliard, specializing in web design and developement.</p>
+        <p class="about_txt-2 right">My name is Lilian Chesneau, and I am a student of "BUT Métiers du Multimédia et de l'Internet" at the MMI department of IUT of Belfort-Montbéliard, specializing in web design and developement.</p>
         <p class="about_txt-2 right">Through my studies, I have developed a strong skill set in web and graphic design, web integration, graphic and typographic creations, audio and video productions, communication, and social media. I am passionate about creating beautiful, engaging designs that enhance the user experience and tell a story.</p>
-        <p class="about_txt-2 left">During my semester abroad at Vanier College in Montreal, Canada, I had the opportunity to explore different aspects of graphic design and learn new ways to share ideas and create meaningful designs. This experience helped me refine my content creation skills as a web designer and furthered my commitment to producing work that is both visually appealing and engaging.</p>
+        <p class="about_txt-2 right">During my semester abroad at Vanier College in Montreal, Canada, I had the opportunity to explore different aspects of graphic design and learn new ways to share ideas and create meaningful designs. This experience helped me refine my content creation skills as a web designer and furthered my commitment to producing work that is both visually appealing and engaging.</p>
         <p class="about_txt-2 right">As a designer, I believe that it is essential to respond appropriately to the target audience and apply the principles and elements of design to create layouts that are accessible, engaging, and proper. I also believe in developing coherent and sustainable identities that reveal values and missions while constantly improving and evolving the quality of my creations.</p>
-        <p class="about_txt-2 left">I am always eager to collaborate with like-minded individuals on exciting projects and continue honing my skills as a designer. If you would like to get in touch, please feel free to contact me via email or LinkedIn. Thank you for taking the time to read my personal presentation, and I look forward to connecting with you soon!</p>
+        <p class="about_txt-2 right">I am always eager to collaborate with like-minded individuals on exciting projects and continue honing my skills as a designer. If you would like to get in touch, please feel free to contact me via email or LinkedIn. Thank you for taking the time to read my personal presentation, and I look forward to connecting with you soon!</p>
         
 
-        <h2 class="about_subtitle-2 mt-[8rem] left">Hard Skills</h2>
+        <h2 class="about_subtitle-2 mt-[8rem] right">Hard Skills</h2>
         <div class="about_skills">
-          <div class="left">Social media management</div>
-          <div class="left">Adobe Creative Suite</div>
-          <div class="left">Design principles</div>
-          <div class="left">Responsive design</div>
-          <div class="left">Content creation</div>
-          <div class="left">Motion graphics</div>
-          <div class="left">Unreal Engine</div>
-          <div class="left">Video editing</div>
-          <div class="left">Print design</div>
-          <div class="left">Color theory</div>
-          <div class="left">Copywriting</div>
-          <div class="left">HTML & CSS</div>
-          <div class="left">JavaScript</div>
-          <div class="left">Typography</div>
-          <div class="left">Wordpress</div>
-          <div class="left">UX design</div>
-          <div class="left">VueJS</div>
+          <div class="right">Social media management</div>
+          <div class="right">Adobe Creative Suite</div>
+          <div class="right">Design principles</div>
+          <div class="right">Responsive design</div>
+          <div class="right">Content creation</div>
+          <div class="right">Motion graphics</div>
+          <div class="right">Unreal Engine</div>
+          <div class="right">Video editing</div>
+          <div class="right">Print design</div>
+          <div class="right">Color theory</div>
+          <div class="right">Copywriting</div>
+          <div class="right">HTML & CSS</div>
+          <div class="right">JavaScript</div>
+          <div class="right">Typography</div>
+          <div class="right">Wordpress</div>
+          <div class="right">UX design</div>
+          <div class="right">VueJS</div>
         </div>
 
         <h2 class="about_subtitle-2 text-left pt-[2rem] right">Soft Skills</h2>

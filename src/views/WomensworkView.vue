@@ -35,9 +35,9 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1  class="left">Gendered work</h1>
-          <p class="left">Women's Work is a compelling exploration of the history and evolution of gendered work in our society. Through a journey spanning the 20th century to the present day, this project sheds light on the struggles and triumphs of women in their fight for equality in the workplace.</p>
-          <p class="project_subtitle left">¿how is this approached?</p>
+          <h1  class="right">Gendered work</h1>
+          <p class="right">Women's Work is a compelling exploration of the history and evolution of gendered work in our society. Through a journey spanning the 20th century to the present day, this project sheds light on the struggles and triumphs of women in their fight for equality in the workplace.</p>
+          <p class="project_subtitle right">¿how is this approached?</p>
         </div>
         </div>
       </section>
@@ -56,8 +56,8 @@
       <section class="section_C">
         <div class="section_C-content">
           <div class="section_C-1 z-10">
-            <h1 class="left">Mobile Way</h1>
-            <p class="left">Designed and developed only prioritizing the mobile user experience over the desktop experience. Simplicity and clarity, easily accessible on smaller screens. Touch screen interface to scroll around the articles and have a nice reading session.</p>
+            <h1 class="right">Mobile Way</h1>
+            <p class="right">Designed and developed only prioritizing the mobile user experience over the desktop experience. Simplicity and clarity, easily accessible on smaller screens. Touch screen interface to scroll around the articles and have a nice reading session.</p>
           </div>
           <div class="z-[1]] up">
             <img src="../../public/img/ww-iphoneHOME.png" alt="Women's WOrk Mock-up">
@@ -83,9 +83,9 @@
       <section class="project section_A">
         <div class="project_container">
           <div class="z-10">
-            <h1 class="left">Colors</h1>
-            <p class="left">Confidence, authority, stability, reliability, trust, credibility but with compassion, love and understanding for a warm and welcoming environment. A mix of bold and soft colors that work together to create a balanced and harmonious visual experience. The contrast between the deep blue and the soft pink, as well as the use of white as a neutral base, creates a dynamic and engaging color palette that is both modern and timeless.</p>
-            <p class="project_subtitle left">¿Creating an environment?</p>
+            <h1 class="right">Colors</h1>
+            <p class="right">Confidence, authority, stability, reliability, trust, credibility but with compassion, love and understanding for a warm and welcoming environment. A mix of bold and soft colors that work together to create a balanced and harmonious visual experience. The contrast between the deep blue and the soft pink, as well as the use of white as a neutral base, creates a dynamic and engaging color palette that is both modern and timeless.</p>
+            <p class="project_subtitle right">¿Creating an environment?</p>
           </div>
           <div class="z-[1] right">
             <img class="IMG_project" src="../../public/img/ww-colorsshading.jpg" alt="Artwork Women's Work">
@@ -95,7 +95,7 @@
 
       <section class="project section_B">
         <div class="project_container">
-          <div class="z-[1] left">
+          <div class="z-[1] right">
             <img class="IMG_project" src="../../public/img/ww-pages.png" alt="Pages du site Women's Work">
           </div>
           <div class="z-10">
@@ -187,9 +187,9 @@
       <section class="project section_A">
         <div class="project_container">
           <div class="z-10">
-            <h1 class="left">The experience </h1>
-            <p class="left">This project was my first web design and integration project. It was carried out as part of an educational exercise at the <a class="underlinelink" href="#" target="_blank" rel="noopener noreferrer">MMI Montbéliard</a> department during my first semester of study. The subject of feminism is both intellectually stimulating and personally enlightening. It addresses a pressing and consequential issue that is fundamentally tied to social justice and the fight for gender equality.</p>
-            <p class="project_subtitle left">¿the beginning of a journey?</p>
+            <h1 class="right">The experience </h1>
+            <p class="right">This project was my first web design and integration project. It was carried out as part of an educational exercise at the <a class="underlinelink" href="#" target="_blank" rel="noopener noreferrer">MMI Montbéliard</a> department during my first semester of study. The subject of feminism is both intellectually stimulating and personally enlightening. It addresses a pressing and consequential issue that is fundamentally tied to social justice and the fight for gender equality.</p>
+            <p class="project_subtitle right">¿the beginning of a journey?</p>
           </div>
           <div></div>
         </div>
@@ -587,6 +587,10 @@ export default {
   }
 
   /* ===== Project ===== */
+  #project_title-canvas{
+scale: .3;
+  }
+
   .project{
     max-width: 1300px;
     margin: 0 auto;

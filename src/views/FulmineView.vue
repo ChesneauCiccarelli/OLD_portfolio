@@ -35,9 +35,9 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1 class="left">Sharing values</h1>
-          <p class="left">Brands often like to share their values because it helps them connect with their audience on a deeper level. When a brand shares its values, it shows what it stands for and what it believes in. This can create an emotional connection with consumers who share similar values, leading to increased loyalty and advocacy.</p>
-          <p class="project_subtitle left">¿Connecting with consumers?</p>
+          <h1 class="right">Sharing values</h1>
+          <p class="right">Brands often like to share their values because it helps them connect with their audience on a deeper level. When a brand shares its values, it shows what it stands for and what it believes in. This can create an emotional connection with consumers who share similar values, leading to increased loyalty and advocacy.</p>
+          <p class="project_subtitle right">¿Connecting with consumers?</p>
         </div>
       </div>
     </section>
@@ -50,7 +50,7 @@
           <p class="project_subtitle right">¿What is a name?</p>
         </div>
         <div class="z-[1]">
-          <img class="IMG_project scale-75 left" src="../../public/img/ful-logogap.png" alt="Fulmine Sizing">
+          <img class="IMG_project scale-75 right" src="../../public/img/ful-logogap.png" alt="Fulmine Sizing">
         </div>
       </div>
     </section>
@@ -65,8 +65,8 @@
           <img src="../../public/img/ful-bsg.png" alt="Type Artwork Fulmine BSG">
         </div>
         <div class="section_C-2 z-10">
-          <h1 class="left">Applications</h1>
-          <p class="left">Identify the media on which your brand will be applied, such as print, social media and the website. For each medium, provide specific guidelines for the use of your brand elements.</p>
+          <h1 class="right">Applications</h1>
+          <p class="right">Identify the media on which your brand will be applied, such as print, social media and the website. For each medium, provide specific guidelines for the use of your brand elements.</p>
         </div>
       </div>
     </section>
@@ -77,9 +77,9 @@
             <img class="IMG_project right" src="../../public/img/ful-keywords.png" alt="Keywords Fulmine">
           </div>
         <div class="z-10">
-          <h1 class="left">Keywords</h1>
-          <p class="left">Using keywords helps establish a strong brand because they are a powerful tool for communicating your brand message to your target audience. Keywords are the words or phrases that people use to search for information online, and they help to define the essence of your brand.</p>
-          <p class="project_subtitle left">¿Differentiate your brand?</p>
+          <h1 class="right">Keywords</h1>
+          <p class="right">Using keywords helps establish a strong brand because they are a powerful tool for communicating your brand message to your target audience. Keywords are the words or phrases that people use to search for information online, and they help to define the essence of your brand.</p>
+          <p class="project_subtitle right">¿Differentiate your brand?</p>
         </div>
       </div>
     </section>
@@ -91,7 +91,7 @@
           <p class="right">The colors of a brand can represent different things depending on the brand's identity and message. However, generally speaking, colors can evoke specific emotions or convey certain meanings to consumers. It's important to note that colors can have different meanings in different cultures, so a brand's choice of colors should take this into consideration if they operate in multiple markets. Overall, the colors of a brand are an essential aspect of its visual identity and can influence consumer perceptions and behavior.</p>
           <p class="project_subtitle right">¿Represeting your values?</p>
         </div>
-        <div class="z-[1] left">
+        <div class="z-[1] right">
           <img class="IMG_project" src="../../public/img/ful-colors.png" alt="Couleurs de fulmine">
         </div>
       </div>
@@ -103,9 +103,9 @@
           <img class="IMG_project right" src="../../public/img/ful-type.png" alt="Typographie Fulmine Brand">
         </div>
         <div class="z-10">
-          <h1 class="left">Typography</h1>
-          <p class="left">Typography plays an important role in shaping a brand's identity and image. It helps to establish a visual language that communicates a brand's personality, values, and message to its audience. A well-designed typography system can create a consistent and memorable brand experience across all touchpoints, from the logo to packaging, advertising, and digital channels.</p>
-          <p class="project_subtitle left">¿Representing your vision?</p>
+          <h1 class="right">Typography</h1>
+          <p class="right">Typography plays an important role in shaping a brand's identity and image. It helps to establish a visual language that communicates a brand's personality, values, and message to its audience. A well-designed typography system can create a consistent and memorable brand experience across all touchpoints, from the logo to packaging, advertising, and digital channels.</p>
+          <p class="project_subtitle right">¿Representing your vision?</p>
         </div>
       </div>
     </section>
@@ -203,9 +203,9 @@
       <div class="project_container">
         <div></div>
         <div class="z-10">
-          <h1 class="left">Feedback</h1>
-          <p class="left">A project that gave me a lot of knowledge on graphic design software such as Indesign and Illustrator. The purpose of brand guidelines is to ensure consistency and coherence in how a brand is perceived and represented across all channels and touchpoints, both online and offline. By providing clear guidelines for how the brand should be presented, it helps to build brand recognition and trust, and ensures that the brand is accurately and consistently portrayed to its audience.</p>
-          <p class="project_subtitle left">¿What are Brand Guidelines?</p>
+          <h1 class="right">Feedback</h1>
+          <p class="right">A project that gave me a lot of knowledge on graphic design software such as Indesign and Illustrator. The purpose of brand guidelines is to ensure consistency and coherence in how a brand is perceived and represented across all channels and touchpoints, both online and offline. By providing clear guidelines for how the brand should be presented, it helps to build brand recognition and trust, and ensures that the brand is accurately and consistently portrayed to its audience.</p>
+          <p class="project_subtitle right">¿What are Brand Guidelines?</p>
         </div>
       </div>
     </section>

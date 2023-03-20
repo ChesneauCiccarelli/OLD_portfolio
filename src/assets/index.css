@@ -117,17 +117,6 @@ h2:hover {
   opacity: 1;
 }
 
-.left {
-  position: relative;
-  transform: translateX(150px);
-  opacity: 0;
-  transition: all 1s ease;
-}
-.left.left_active {
-  transform: translateX(0px);
-  opacity: 1;
-}
-
 .right {
   position: relative;
   transform: translateX(-150px);

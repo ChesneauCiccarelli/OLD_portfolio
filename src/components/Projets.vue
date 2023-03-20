@@ -20,7 +20,7 @@
               </button>
             </RouterLink>
           </div>
-          <RouterLink class="project_img left" to="/womenswork">
+          <RouterLink class="project_img right" to="/womenswork">
             <img class="rounded-[20px] m-auto" src="/public/img/ww.png" alt="Women's Work Mock">
           </RouterLink>
         </div>
@@ -39,7 +39,7 @@
               </button>
             </RouterLink>
           </div>
-          <RouterLink class="project_img left" to="/deepdown">
+          <RouterLink class="project_img right" to="/deepdown">
             <img class="rounded-[20px] m-auto" src="/public/img/dd-homepage.png" alt="Deep Down Festival mock up">
           </RouterLink>
         </div>
@@ -58,7 +58,7 @@
               </button>
             </RouterLink>
           </div>
-          <RouterLink class="project_img left" to="/fulmine">
+          <RouterLink class="project_img right" to="/fulmine">
             <img class="rounded-[20px] m-auto" src="/public/img/ful-bsg.png" alt="Deep Down Festival mock up">
           </RouterLink>
         </div>
